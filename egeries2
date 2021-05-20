@@ -1,0 +1,42 @@
+t {
+  font-size: 5px;
+}
+.egerie {
+ position: relative;
+ width: 100%;
+}
+.egerie .image-originale {
+ border: 4px solid #ffffff70;
+ border-radius:70px;
+ height: 70px;
+ margin-right: 10px;
+ margin-top:10px;
+ object-fit: cover;
+ width:70px;
+}
+.egerie .texte-original {
+ color: #000;
+ font-size: 9px;
+ text-align: center;
+ position: absolute; 
+ left: 40%;
+ top: 120%;
+ transform: translate(-50%, -50%);
+}
+.egerie .texte-hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+.egerie:hover .texte-normal {
+ opacity: 0;
+}
+.egerie:hover .texte-hover {
+ opacity: 1;
+}
+.egerie .texte-normal {
+ transition: .5s ease;
+}
