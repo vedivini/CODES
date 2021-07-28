@@ -10,11 +10,6 @@ html{
   background-color: #000000;
 }
 
-.ptable table{
-	margin: 30px auto;
-	border-collapse: collapse;
-}
-
 .ptable{
 	margin: 0px 0% 30px 0%;
 }
