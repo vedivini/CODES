@@ -19,15 +19,6 @@ html{
 	margin: 0px 0% 30px 0%;
 }
 
-th, td {
-    padding: 10px;
-}
-
-th{
-	background-color: black;
-	color: #ea4162;
-}
-
 .wpos{
 	text-align: center;
 }
