@@ -117,7 +117,7 @@ width: 200px;
 height: 90px;
 padding: 8px;
 position: relative;
-overflow: scroll;
+overflow: none!important;
 text-align: justify;
 margin: 0 auto;}
 
