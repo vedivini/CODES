@@ -48,18 +48,6 @@ font-weight:bold;
 margin-left:3px;
 text-transform:uppercase;} 
 
-.web_inf3 {
-font-family: "Gill Sans Extrabold", sans-serif;
-font-size: 8px;
-color: white;
-width: 200px;
-height: 90px;
-padding: 8px;
-position: relative;
-overflow: scroll;
-text-align: justify;
-margin: 0 auto;} 
-
 .ytbflex{margin-top:-5px!important;} 
 
 .infoytb{height:79px!important;}
