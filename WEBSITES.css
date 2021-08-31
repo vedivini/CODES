@@ -30,6 +30,7 @@
   overflow:hidden;
   width:100%;
   height:auto;
+  display: flex;
 }
 
 .web_cont .content-insta {
