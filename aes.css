@@ -1,0 +1,279 @@
+    hr{border: solid var(--lights2) 0!important;
+    border-top-width: 1px!important;
+    height: 0!important;}
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    
+    bla{
+    font-family:vidaloka;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    color:var(--color-button);} 
+    bla:before{content:'⊰ ';}
+
+    ah{
+    font-family:'merriweather';
+    font-size:9px;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    border-bottom:1px solid transparent;
+    transition: all 0.5s;
+    color:var(--color4);} 
+    ah:hover{border-bottom:1px solid var(--color1);}
+
+    t1{
+    text-shadow:1px 1px 0px var(--shadow);
+    font-family:karla;
+    color:var(--noir);
+    font-size:9px;
+    font-weight:bold;
+    text-transform:uppercase;}
+    t1:before {content: "❛ ";}
+    
+    t2{
+    text-shadow:1px 1px 0px var(--shadow);
+    font-family:abril fatface;
+    color:var(--noir);
+    font-size:10px;
+    text-transform:uppercase;}
+
+    st1{
+    display:inline-block;
+    background-color:var(--blanc);
+    padding:1px;
+    text-transform:uppercase;
+    font-size: 9px;
+    line-height:normal;
+    font-weight: 600;
+    color: var(--color2)!important;
+    font-family:karla;}
+
+   st2{
+   color:var(--color2);
+   font-size:10px;
+   text-align:justify;
+   text-transform:uppercase;
+   font-weight:bold;
+   background-image:-webkit-linear-gradient(-150deg,var(--grad1),var(--grad2))!important;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color:transparent;}
+    
+   st3{
+   display: inline-block;
+   background-color:var(--color5);
+   padding: 2px 2px 1px 3px;
+   line-height: 115%;
+   letter-spacing:.5px;
+   text-transform: uppercase;
+   font-size:8px;
+   font-family:arial;
+   font-weight: 600;
+   color:#fff!important;}
+
+   ii{
+   color:var(--color5);
+   font-size:13px;
+   font-family:vidaloka;}
+   
+   ii2{
+   color:var(--color2);
+   font-size:13px;
+   font-family:vidaloka;}
+   
+   ii3{
+   color:var(--color3);
+   font-style:italic;} 
+
+   ii4{
+   color:var(--color4);
+   font-style:italic;}
+
+   ii5{
+   color:var(--color5);
+   font-style:italic;} 
+
+    bb{
+    color:var(--color5);
+    font-weight:650;} 
+    
+    bb2{
+    color:var(--color-button);
+    font-weight:650;} 
+    
+    bb3{
+    color:var(--color4);
+    font-weight:650;}
+    
+    uu{
+    border-bottom:1px solid var(--color4);
+    color:var(--color5);} 
+    
+    u1{
+    color:var(--color2);
+    border-bottom:1px solid var(--color5);
+    font-style:italic;text-decoration: none;}
+
+    big{
+    font-family:'playfair display';
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:-.5px;
+    background-image:-webkit-linear-gradient(-150deg,var(--grad1),var(--grad2))!important;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;} 
+
+    bigg{
+    font-family:'playfair display';
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:-.5px;
+    background-image:-webkit-linear-gradient(-150deg,var(--grad1),var(--grad2))!important;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;} 
+    
+    u2{
+    box-shadow:inset 0 -6px 0 var(--u2);
+    color:var(--txt2);
+    text-decoration:none;}
+    
+    u3{
+    box-shadow:inset 0 -6px 0 var(--u3);
+    color:var(--txt2);
+    text-decoration:none;}
+    
+    u4{
+    box-shadow:inset 0 -6px 0 var(--u4);
+    color:var(--txt2);
+    text-decoration:none;}
+    
+    bou{
+    font-family:'karla';
+    font-size:9px;
+    color:var(--noir);
+    text-transform:uppercase;}
+    bou:before{content:"  ↣ "}
+
+    bou2{
+    background:#fff;
+    color:var(--color-pill);
+    font-family:'vidaloka';
+    font-size:10px;
+    text-transform:uppercase;
+    padding:.2px 2px .5px 1px;}
+
+    xp{
+    display:inline-block;
+    box-shadow:inset 0 -1px 0 var(--color5);
+    transition:all .5s;
+    font-family:'karla';
+    font-weight:bold;} 
+    xp:hover{
+    box-shadow:inset 0 -15px 0 var(--color2);
+    color:#fff;}
+
+    pts{
+    font-family:'karla';
+    font-size:9px;}
+    
+    pp{
+    display:block;
+    float:left;
+    padding:12px 14px;
+    background-image:-webkit-linear-gradient(-176deg,var(--grad1),var(--grad2))!important;
+    color:#fff;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:calc(11px + 4px);
+    margin:0px 10px 0px 0px;}
+
+    p{
+    color:#595959;
+    text-transform:none!important;
+    font-size:11px;
+    font-family:arial;
+    text-align:justify;
+    padding-top:5px;}
+
+    un{
+    text-shadow:0.5px 0.5px 0px var(--shadow);
+    font-family:vidaloka;
+    font-size:14px;
+    color:var(--noir);} 
+    un:after{
+    width:50px;
+    height:1px;
+    display: block!important;
+    content:'';
+    background-image:-webkit-linear-gradient(-176deg,var(--grad1),var(--grad2))!important;
+    margin: 0 auto;
+    margin-top:5px;
+    margin-bottom:5px;} 
+    
+    deux{
+    font-family:vidaloka;
+    font-size:12px;
+    text-transform:uppercase;
+    color:var(--noir);} 
+
+    fin{
+    line-height:150%;
+    font-style:italic;
+    font-family:times new;} 
+
+    sou{
+    border-bottom: 2px solid;
+    border-color:var(--color5);} 
+    
+    tt1{color:var(--color3);} tt3{color:var(--color4);} tt4{color:var(--color5);} 
+    tt2{font-family:old standard tt;color:var(--noir);font-size:12px;}
+    
+    stf{
+    background:var(--bdrf)!important;
+    font-size:9.5px;
+    letter-spacing:1px;
+    padding: 2px 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: #ffffff20 1px 1px 0;
+    color: var(--color3);
+    text-transform: lowercase;
+    width: fit-content;}
+    
+    iii{
+    color:#999999;
+    font-family: 'Vidaloka',serif;
+    text-shadow:1px 1px 0 var(--shadow);
+    letter-spacing:-.4px;
+    font-size:13px;
+    font-style:italic;} 
+    
+    bg{
+    text-transform:uppercase;
+    font-family: 'Vidaloka',serif;
+    text-shadow:1px 1px 0 var(--shadow);
+    letter-spacing:-.4px;
+    font-size:11px;}
+    
+    sous{
+    font-family:vidaloka;
+    text-shadow:.5px .5px 0 var(--shadow);
+    letter-spacing:-.4px;
+    font-size:12px;
+    border-bottom:.5px solid var(--color4);} 
+    
+    titre{
+    font-weight:700;
+    letter-spacing:-1px;
+    background:linear-gradient(to right,var(--color5),var(--color2));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size:14px;
+    font-family:vidaloka;} 
+    
+    titre2{
+    letter-spacing:-.5px;
+    color:var(--noir);
+    font-size:13px;
+    font-family:vidaloka;
+    text-transform:uppercase;} 
