@@ -133,7 +133,7 @@ lb poster {
   background:var(--color4);
   font-family:karla;
   text-align: center;
-  font-size: 10px;
+  font-size: 8px!important;
   color: #fff!important;
   text-transform: uppercase; 
   letter-spacing: 2px;
