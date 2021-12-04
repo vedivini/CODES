@@ -1,6 +1,6 @@
 .haut_fos{height:70px;}
   
-.lastpost-avatar {
+.forum_la .lastpost-avatar {
     padding: 2px;
     z-index: 999;
     border: 1px solid rgba(255,255,255,0.09);
@@ -11,7 +11,7 @@
     margin-top: 14px;
 }
 
-.lastpost-avatar img {
+.forum_la .lastpost-avatar img {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 50px;
