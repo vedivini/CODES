@@ -65,7 +65,7 @@ f-info f-title{
   background: none;
   text-align: justify;
   margin-bottom: 10px;
-  border-bottom: 1px solid var(--blanc);
+  border-bottom: 1px solid var(--bordure);
   padding-bottom: 5px;
   transition: all 3s;
 }
@@ -114,7 +114,7 @@ lb fr {
   align-content: center;
   width: calc(100% - 2px);
   height: calc(100% - 2px);
-  border: 1px solid var(--brd);
+  border: 1px solid var(--bordure);
 }
 
 lb by {
@@ -132,11 +132,11 @@ lb poster {
   width: auto;
   height: auto;
   padding: 5px 10px;
-  background:var(--brd);
+  background:var(--blanc);
   font-family:karla;
   text-align: center;
   font-size: 8px!important;
-  color: #fff!important;
+  color: #000!important;
   text-transform: uppercase; 
   letter-spacing: 2px;
   margin-top: 5px;
