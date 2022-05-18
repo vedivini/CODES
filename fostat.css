@@ -40,7 +40,7 @@ f-info a, f-info a:hover{color:#fff}
 display: flex;
     padding: 15px 15px 25px 15px;
     height: 50px;
-    background: var(--lgt3);
+    background: var(--catb);
     margin-bottom: 8px;
     border-radius: 10px;
   border: solid 1px var(--brd);
@@ -65,7 +65,7 @@ f-info f-title{
   background: none;
   text-align: justify;
   margin-bottom: 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.09);
+  border-bottom: 1px solid var(--blanc);
   padding-bottom: 5px;
   transition: all 3s;
 }
@@ -114,7 +114,7 @@ lb fr {
   align-content: center;
   width: calc(100% - 2px);
   height: calc(100% - 2px);
-  border: 1px solid rgba(255,255,255,0.09);
+  border: 1px solid var(--blanc);
 }
 
 lb by {
