@@ -43,6 +43,8 @@ display: flex;
     background: var(--lgt3);
     margin-bottom: 8px;
     border-radius: 10px;
+  border: solid 1px var(--brd);
+  backdrop-filter:blur(20px);
 }
 
 f-info {
