@@ -1,6 +1,6 @@
 play {width: 12px;height: 12px;display: block;border: 1px solid #efefef;border-radius: 100%;color: rgba(0, 0, 0, 0.20);font-size: 10px;padding: 6px 5px 5px 8px;transition: 1s;} 
 re-song {display: flex;justify-content: space-between;align-items: center;width: 150px;height: 25px;margin-top: -5px;position: relative;} 
-re-song s-name {display: block;width: 100px;height: 20px;text-transform: uppercase;text-align: justify;font-size: 8px;font-family: 'Open Sans', sans-serif;padding-top: 5px;background: none;} 
+re-song s-name {display: block;width: 150px;height: 20px;text-transform: uppercase;text-align: justify;font-size: 8px;font-family: 'Open Sans', sans-serif;padding-top: 5px;background: none;} 
 re-song s-name b {font-family: 'Rubik', sans-serif;font-weight: 600;color:#000} 
 re-track {width: 100%;height:auto;background: none;display: flex;flex-direction: row;justify-content: space-between;flex-wrap: wrap;overflow:none;}
 
