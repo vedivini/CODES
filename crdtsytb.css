@@ -1,1 +1,115 @@
-play {width: 12px;height: 12px;display: block;border: 1px solid #efefef;border-radius: 100%;color: rgba(0, 0, 0, 0.20);font-size: 10px;padding: 6px 5px 5px 8px;transition: 1s;} re-song {display: flex;justify-content: space-between;align-items: center;width: 150px;height: 25px;margin-top: -5px;position: relative;} re-song s-name {display: block;width: 100px;height: 20px;text-transform: uppercase;text-align: justify;font-size: 8px;font-family: 'Open Sans', sans-serif;padding-top: 5px;background: none;} re-song s-name b {font-family: 'Rubik', sans-serif;font-weight: 600;color:#000} re-track {width: 100%;height:auto;background: none;display: flex;flex-direction: row;justify-content: space-between;flex-wrap: wrap;overflow:none;}
+play {width: 12px;height: 12px;display: block;border: 1px solid #efefef;border-radius: 100%;color: rgba(0, 0, 0, 0.20);font-size: 10px;padding: 6px 5px 5px 8px;transition: 1s;} 
+re-song {display: flex;justify-content: space-between;align-items: center;width: 150px;height: 25px;margin-top: -5px;position: relative;} 
+re-song s-name {display: block;width: 100px;height: 20px;text-transform: uppercase;text-align: justify;font-size: 8px;font-family: 'Open Sans', sans-serif;padding-top: 5px;background: none;} 
+re-song s-name b {font-family: 'Rubik', sans-serif;font-weight: 600;color:#000} 
+re-track {width: 100%;height:auto;background: none;display: flex;flex-direction: row;justify-content: space-between;flex-wrap: wrap;overflow:none;}
+
+sec-1 {
+  background:#ffffff90;
+  display:flex;
+  width:540px;
+  height:160px; 
+  border:1px solid #efefef;
+  margin-top:10px;
+  margin:0 auto;
+  border-radius:10px;
+  padding:20px;
+}
+
+re-album {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  background: url(https://i.pinimg.com/564x/41/d9/17/41d917aa7cd1bbcc005846df3a064153.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+re-con {
+  display: block;
+  width: 345px;
+  height: 100%;
+  background: none;
+  margin-left: 30px;
+}
+
+re-cent {
+  width: 100%;
+  height: 20px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  color: #d6d6d6;
+  text-align: left;
+  font-size: 14px;
+}
+
+re-title {
+  width: 100%;
+  height: 20px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  color: var(--color4);
+  text-align: left;
+  font-size: 20px;
+}
+
+re-track {
+  width: 100%;
+  height: 100px;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 18px;
+  flex-wrap: wrap;
+  overflow:auto;
+}
+
+re-song s-track {
+  display: block;
+  width: 120px;
+  height: 5px;
+  background: #ebebeb;
+  border-radius: 15px;
+}
+
+re-song s-time { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+re-song i.icon-outline { 
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: var(--color2);
+  position: relative;
+  z-index: 91;
+  transition: 0.5s;
+}
+
+re-song i.icon-fill { 
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: var(--color2);
+  position: absolute;
+  z-index: 90;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+re-song i.icon-outline:hover i.icon-fill {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0,5s;
+}
+
+play:hover i { 
+ color: var(--color1);
+  transition: 1s;
+  cursor: pointer;
+}
