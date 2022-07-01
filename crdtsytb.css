@@ -4,3 +4,14 @@ re-song s-name {display: block;width: 100px;height: 20px;text-transform: upperca
 re-song s-name b {font-family: 'Rubik', sans-serif;font-weight: 600;color:#000} 
 re-track {width: 100%;height:auto;background: none;display: flex;flex-direction: row;justify-content: space-between;flex-wrap: wrap;overflow:none;}
 
+.re-album {width:100px;height:100px;border-radius:10px;background-size: cover;background-position: center;display: block;} 
+sec-1 {background:#00000005;display:flex;width:340px;height:100px; border:1px solid #efefef;margin-top:10px;margin:0 auto;border-radius:10px;padding:20px;} 
+re-con {display: block;width: 210px;height: 100%;background: none;margin-left: 30px;overflow:auto;} 
+re-cent {width: 100%;height: 12px;display: block;font-family: 'Rubik', sans-serif;color: #d6d6d6;text-align: left;font-size: 10px} 
+re-title {width: 100%;height: 20px;display: block;font-family: 'Rubik', sans-serif;color:#000;text-align: left;font-size:15px;} 
+s-track {display: block;width: 120px;height: 5px;background: #ebebeb;border-radius: 15px;} 
+tracklist i.icon-outline {display: block;font-family: 'Open Sans', sans-serif;font-size: 10px;color: #f60000;position: relative;z-index: 91;transition: 0.5s;margin-left:20px;} 
+tracklist i.icon-fill {display: block;font-family: 'Open Sans', sans-serif;font-size: 10px;color:#f60000;position: absolute;z-index: 90;right: 0px;top: 0px;opacity: 0;transition: 0.5s;} 
+tracklist i.icon-outline:hover i.icon-fill {opacity: 1;cursor: pointer;transition: 0,5s;} 
+tracklist{margin-bottom: -24px;display: flex;justify-content: space-between;align-items: center;width: 150px;height: 25px;margin-top: -5px;position: relative;} 
+tracklist s-name {display: block;width: 100px;height: 20px;text-transform: uppercase;text-align: justify;font-size: 8px;font-family: 'Open Sans', sans-serif;padding-top: 5px;background: none;}
