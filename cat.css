@@ -193,6 +193,7 @@ padding:1px;
     object-fit: cover;
     opacity: 0.5;
     border-radius:100%;
+  transition: 1s;
 }
 
 .catlink{
