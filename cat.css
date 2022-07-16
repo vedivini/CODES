@@ -1,14 +1,12 @@
 .haut_cat{
     margin:0 auto;
-    margin-top:10px;
     width: 815px;
     height: auto;
     padding: 2px 10px;
     opacity: .8;
-  margin-bottom:15px;
 }
 
-.haut_cat h2 {
+.haut_cat hautitre{
     color: var(--noir);
     letter-spacing: -2px;
     font-family: archivo black;
