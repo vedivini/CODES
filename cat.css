@@ -197,15 +197,18 @@ padding:1px;
 }
 
 .catlink{
-  text-shadow: 1px 1px 0 #fff;
-  font-family: archivo black;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-family:open sans;
+  text-transform:lowercase;
+  letter-spacing:.5px;
   font-size: 7px;
   padding: 3px;
   margin-left:10px;
-  color: var(--noir);
+  color: var(--txt);
   width:120px;
+}
+
+.catlink{
+  font-weight:600;
 }
 
 .sep{
