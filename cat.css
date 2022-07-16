@@ -31,7 +31,7 @@
     width: 835px;
     height: auto;
     margin:0 auto;
-  margin-top:5px;
+    margin-bottom: -15px;
 }
 .cat_haut{
   display:flex;
