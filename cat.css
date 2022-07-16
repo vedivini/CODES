@@ -207,8 +207,10 @@ padding:1px;
   width:120px;
 }
 
-.catlink{
+.catlink a{
   font-weight:600;
+    color:var(--c4);
+    font-size:9px;
 }
 
 .sep{
