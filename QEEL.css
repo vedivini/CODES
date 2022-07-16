@@ -78,6 +78,14 @@
   margin-top:15px;
 }
 
+#qeel .online a{
+    font-size: 9px;
+    font-weight: 300;
+    color: var(--txt);
+  letter-spacing:.5px;
+    font-family: open sans;
+}
+
 #qeel .grps{
   margin-left:15px;
   width:130px;
