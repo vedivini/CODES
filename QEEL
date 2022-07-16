@@ -1,0 +1,406 @@
+.pulse {
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background: var(--blanc);
+  box-shadow: 0 0 0 var(--blanc);
+  transition: all 0.2s;
+  cursor: pointer;
+  margin:18px 12px 12px 12px;
+  color:var(--c3);
+  padding:10px;
+  font-size:20px;
+  transform: scale(.9);
+  outline:1px solid var(--blanc);
+  outline-offset:3px;
+}
+
+.pulse a{
+  color:var(--c5);
+}
+
+.pulse:active {
+  transform: scale(1.5);
+}
+
+.pulse:hover{
+  animation: pulsing 4s infinite;
+  transform: scale(1) rotate(20deg)!important;
+  transition: all ease 0.5s;
+  outline:0px;
+}
+
+#qeel{
+  width:840px;
+  height:400px;
+  /*background-color:var(--cbg);*/
+  margin:0 auto;
+  margin-top:15px;
+}
+
+#qeel .stat{
+  background-color:var(--noir);
+  padding:10px;
+  width:820px;
+  height:10px;
+  border-radius:10px;
+  color:var(--blanc);
+  font-family:open sans;
+  font-size:8px;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+
+#qeel .inte{
+  display:flex;
+}
+
+#qeel .inte2{
+  display:flex;
+}
+
+#qeel .online{
+    height:40px;
+    width: 320px;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 9px;
+    font-weight: 300;
+    color: var(--txt);
+    border-radius: 5px;
+  letter-spacing:.5px;
+    position: relative;
+    margin-left: 5px;
+    font-family: open sans;
+    display: flex;
+    outline: 1px solid var(--blanc);
+    outline-offset: 5px;
+  margin-top:15px;
+}
+
+#qeel .grps{
+  margin-left:15px;
+  width:130px;
+  height:auto;
+}
+
+#qeel .lastco{
+    background-color: var(--blanc);
+    color: var(--txt);
+    height: 90px;
+    width: 330px;
+    line-height: 150%;
+    overflow: hidden;
+    padding: 10px 15px;
+    margin-left: -500px;
+  margin-top:100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  font-size: 8.5px!important;
+    font-family: poppins!important;
+    text-align: justify!important;
+  word-spacing:5px;
+  letter-spacing:.5px;
+}
+
+.lastcointe{
+  overflow:auto;
+  height: 90px;
+}
+
+#qeel .lastmbr{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#qeel .lastmbr .pic{
+  width:80px;
+  height:80px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#qeel .lastmbr .pic:hover {
+  opacity: 0.5;
+  transform: scale(1.2);
+  filter:grayscale(1);
+  transition: all ease 0.5s;
+}
+
+#qeel .newmbrs {
+  width:130px;
+  margin-left:20px;
+    text-align: left;
+    font-size: 10px;
+    font-family:archivo black;
+    letter-spacing: .5px;
+    color: var(--noir);
+    text-transform: uppercase;
+    font-weight: 800!important;
+  margin-top: -135px
+}
+
+#qeel .newmbrs deco{
+      text-decoration-line: overline;
+    text-decoration-color: var(--blanc);
+}
+
+#qeel .newmbrs name {
+    font-size: 18px;
+    font-family: Archivo black;
+  letter-spacing: 1px;}
+
+#qeel c-pl {
+  width: 330px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid var(--c3);
+  margin-top: 9px;
+  background:var(--c1);
+  border-radius: 20px;
+  margin-left:145px;
+}
+
+#qeel c-pl cic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  position: relative;
+  margin-left: 20px;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+#qeel c-pl ci {
+  display: block;
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+  border: 4px solid transparent;
+  border-left: 4px solid #fff;
+  transition: all 2s;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+#qeel c-pl ci:hover {
+ transform: rotate(710deg);
+ transition: all 2s;
+ cursor: pointer;
+}
+
+#qeel c-pl create {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: open sans;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 15px;
+}
+
+#qeel c-pl create cl {
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  transition: 1s;
+}
+
+#qeel c-pl cic:hover ~ create cl {
+  width: 100%;
+  transition: 1s;
+}
+
+#qeel .playlist{
+  padding: 10px;
+  width: 312px;
+  height: 243px;
+  margin-top: -113px;
+  margin-left: 505px;
+  overflow:auto;
+}
+#qeel .playlist::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#qeel .playlist .music{
+  margin-top:-10px;
+  margin-bottom:15px;
+}
+
+#qeel .glen-row {
+  width:322px;
+  display:flex;
+  margin-bottom:15px;
+  align-self:center;
+  -webkit-align-self:center;
+  background-color:var(--cbg);
+  border-radius:40px;
+  padding:5px;
+  margin-left:-10px;
+}
+
+#qeel .glen-row:last-of-type{
+  margin-bottom:0px;
+}
+
+#qeel .glen-album-art {
+  width:35px!important;
+  height:35px!important;
+  object-fit:cover!important;
+  border-radius:100%;
+  transition:0.8s;
+}
+  
+#qeel .glen-album-art img{
+  width:35px!important;
+  height:35px!important;
+  object-fit:cover!important;
+}
+
+#qeel .glen-album-art:hover{
+  opacity: 0.5;
+  filter:grayscale(1);
+  transition: all ease 0.5s;
+}
+
+#qeel .glen-song-text {
+    margin-left:15px;
+    min-width:80px;
+    width:100%;
+  margin-top:3px;
+}
+#qeel .gst-name {
+  font-family:open sans;
+  font-weight:700;
+  text-transform:uppercase;
+  font-size:10px;
+  color:var(--noir);
+}
+
+#qeel .gst-artist {
+    text-transform:lowercase;
+    font-family:poppins;
+    letter-spacing:0.3px;
+    font-size:10px;
+    color:var(--noir);
+  font-style:italic;
+}
+
+#qeel .gst.material-icons {
+  background:var(--blanc);
+  padding:8px;
+  border-radius:100%;
+  margin-left:15px;
+  font-size:18px;
+  color:var(--c6);
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#qeel .gst.material-icons:hover{color:var(--c6);}
+
+#qeel .g3-before {display:none!important;}
+#qeel .g3-after {display:block!important;} 
+
+#qeel .statits{
+  display:flex;
+  flex-direction:row;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+
+#qeel .staticons, #qeel .staticons i {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: -5px;
+  color:var(--blanc);
+}
+
+#qeel .statinfos{
+  border-top: solid 1px var(--blanc);
+  font-family:poppins;
+  text-transform:uppercase;
+  color:var(--blanc);
+  width:95px;
+  font-size:8px;
+  margin: 0px 5px 15px 5px;
+  letter-spacing:.5px;
+  padding-top:3px;
+  font-weight:600;
+}
+
+#qeel .lkns {
+    margin-top:-70px!important;
+  margin-left:10px!important;
+    width: 200px!important;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+#qeel .lkns a {
+    background-color: var(--blanc);
+    color: var(--c1);
+    display: inline;
+    font-family: poppins;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 6px;
+    margin-bottom: 10px!important;
+    transition: 0.8s;
+  border-radius:3px;
+}
+
+#qeel .fdcrdts{
+    margin-left: 150px;
+    margin-top: -55px;
+    background-color: var(--blanc);
+    width: 330px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 50px;
+  opacity:.6;
+}
+
+#qeel .crdts {
+    color: var(--txt);
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 8.5px;
+    height: 48px!important;
+    line-height: 140%;
+    margin: 0 auto!important;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-right: 5px;
+    text-align: justify;
+    width: 325px;
+    text-transform: lowercase;
+}
