@@ -165,22 +165,6 @@ padding:1px;
   background-color:var(--c3);
 }
 
-.cat_img {
-    opacity: .6;
-    width: 100px;
-    outline: 1px solid var(--blanc);
-    height: 72px;
-    margin: 20px 0px 0px 10px;
-    object-fit: cover;
-    border: 5px solid #ffffff00;
-    filter: grayscale(0)!important;
-     transition: .5s all ease;
-}
-.cat_img:hover{
-  filter: grayscale(1)!important;
- 
-}
-
 .cat_stat{
   width:100px;
     color:#00000030;
@@ -239,7 +223,7 @@ padding:1px;
   color:#B77CE6;
 }
 
-.date{
+.datecat{
   font-family: poppins;
   text-transform: uppercase;
   letter-spacing: 1px;
