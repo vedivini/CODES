@@ -103,7 +103,7 @@ background:url(https://i.imgur.com/F78MOBM.png);
   letter-spacing:1px;
 padding:1px;
   text-align:center;
-  text-transform:uppercase;width:125px;margin-bottom:-13px;margin-left:10px;}
+  text-transform:uppercase;width:125px!important;margin-bottom:-13px;margin-left:10px;}
 .ssforum a{color:#fff;}
 .ssforum a:hover{color:#fff;}
 
