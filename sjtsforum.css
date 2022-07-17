@@ -111,7 +111,7 @@ f-info f-desc {
   border-radius: 100%;
 }
 
-.frien-c .f-img {
+.frien-c .f-img img{
   width: 48px;
   height: 48px;
   border-radius: 100%;
@@ -121,7 +121,7 @@ f-info f-desc {
   transition: all ease 0.5s;
 }
 
-.frien-c .f-img:hover {
+.frien-c .f-img img:hover {
   opacity: 0.5;
   transform: scale(1.2);
   filter:grayscale(1);
