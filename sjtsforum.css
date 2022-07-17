@@ -119,6 +119,7 @@ f-info f-desc {
   background-position: center;
   border: 1px solid #fff;
   transition: all ease 0.5s;
+  object-fit: cover;
 }
 
 .frien-c .f-img img:hover {
