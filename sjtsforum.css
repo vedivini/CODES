@@ -1,0 +1,250 @@
+.cont_fl{
+display: flex;
+    padding: 10px;
+    height: 60px;
+    background-color: var(--blanc);
+    width: 820px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: 1px solid var(--blanc);
+    outline-offset: 5px;
+}
+
+f-info {
+  background: none;
+    margin-left: 20px;
+    justify-content: center;
+    color: var(--txt);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  margin-top:-5px;
+}
+
+f-info f-title {
+  display: block;
+  font-family:poppins;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--c5);
+  text-transform: lowercase;
+  background: none;
+  text-align: justify;
+  transition: all 3s;
+  font-weight:600;
+}
+
+f-info f-title:hover {
+  color: var(--c2);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+f-info f-desc {
+  text-transform: lowercase;
+  font-family:poppins;
+  font-size:9.5px;
+  line-height:10px;
+}
+
+.foimgsft img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.lastp{
+  width:340px;
+  height:auto;
+  display:flex;
+  justify-content:space-between;
+  margin-right:10px;
+}
+
+.sjstats {
+    width: 265px;
+  margin-top:5px;
+}
+
+.lastp .msgsvus{
+  font-family:open sans;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+  font-size:8px;
+  border-bottom:1px solid var(--c1);
+  padding-bottom:3px;
+  text-align:center;
+  width:100px;
+  padding-right:5px;
+  padding-left:5px;
+  margin-left: 145px;
+    margin-top: 5px;
+}
+
+.datesjts{
+  font-size:9px;
+  text-transform:uppercase;
+  font-family:open sans;
+  margin-left:10px;
+  color:var(--txt);
+}
+
+.nmsjts{
+  text-transform:uppercase;
+  font-weight:bold;
+  font-family:poppins;
+  font-size:12px;
+  color:var(--noir);
+  margin-left:10px;
+}
+
+.frien-c {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: var(--c3);
+  border-radius: 100%;
+}
+
+.frien-c .f-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #fff;
+  transition: all ease 0.5s;
+}
+
+.frien-c .f-img:hover {
+  opacity: 0.5;
+  transform: scale(1.2);
+  filter:grayscale(1);
+  transition: all ease 0.5s;
+}
+
+#topct c-pl {
+  width: 330px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid var(--c3);
+  margin-top: 9px;
+  background:var(--c1);
+  border-radius: 20px;
+  width:850px;
+  margin:0 auto;
+  margin-top:5px;
+  justify-content: space-between;
+}
+
+#topct c-pl cic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  position: relative;
+  margin-left: 30px;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+#topct c-pl ci {
+  display: block;
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+  border: 4px solid transparent;
+  border-left: 4px solid #fff;
+  transition: all 2s;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+#topct c-pl ci:hover {
+ transform: rotate(710deg);
+ transition: all 2s;
+ cursor: pointer;
+}
+
+#topct c-pl create {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: open sans;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: -250px;
+}
+
+#topct c-pl create cl {
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  transition: 1s;
+}
+
+#topct c-pl cic:hover ~ create cl {
+  width: 100%;
+  transition: 1s;
+}
+
+:root {
+  --transparentBlue: rgba(95,139,250,0);
+}
+
+#topct .pulse {
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background:#ffffff40;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*margin:18px 12px 12px 12px;*/
+  color:var(--c3);
+  padding:10px;
+  font-size:20px;
+  transform: scale(.9);
+  margin-right:30px;
+}
+
+#topct .pulse a{
+  color:var(--blanc);
+}
+
+#topct .pulse:active {
+  transform: scale(1.5);
+}
+
+#topct .pulse:hover{
+  animation: pulsing 4s infinite;
+  transform: scale(1) rotate(20deg)!important;
+  transition: all ease 0.5s;
+  outline:0px;
+}
+
+@keyframes pulsing {
+  from {
+    box-shadow: 0 0 0 0 var(--blanc);
+  }
+  70% {
+    box-shadow: 0 0 0 8px var(--transparentBlue);
+  }
+  to {
+    box-shadow: 0 0 0 0 var(--transparentBlue);
+  }
+}
