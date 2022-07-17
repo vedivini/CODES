@@ -219,14 +219,23 @@ padding:1px;
   margin-left:10px;
 }
 
-.name{
+.catnamedate{
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 7px;
+    padding: 3px;
+    margin-left: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+catname{
   font-family:archivo black;
-  margin-left:10px;
   font-size:8px;
-  width:120px;
   text-transform:uppercase;
   text-align:center;
-  color:#B77CE6;
+  color:var(--noir);
 }
 
 .datecat{
