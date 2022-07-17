@@ -6,9 +6,10 @@ display: flex;
     width: 820px;
     margin: 0 auto;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     outline: 1px solid var(--blanc);
     outline-offset: 5px;
+    margin-bottom:16px!important;
 }
 
 f-info {
@@ -130,7 +131,6 @@ f-info f-desc {
 }
 
 #topct c-pl {
-  width: 330px;
   height: 90px;
   display: flex;
   flex-direction: row;
@@ -141,8 +141,9 @@ f-info f-desc {
   border-radius: 20px;
   width:850px;
   margin:0 auto;
-  margin-top:5px;
+  margin-top:20px;
   justify-content: space-between;
+    margin-left:-6px;
 }
 
 #topct c-pl cic {
