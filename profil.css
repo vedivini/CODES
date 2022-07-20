@@ -86,9 +86,17 @@ width: 237px;
 
 
 /*onglets pro*/
-.systab .tab {border-radius:5px!important;padding:2px 18px;margin-left:3px;color:#fff;text-transform: uppercase;font-family: 'Karla';cursor: pointer;background:-webkit-linear-gradient(-40deg,var(--grad1),var(--grad2))!important;}
-.systab .tab:hover {background:var(--color1)!important}
-.systab .tab.selected{background:var(--color2)!important;}
+.systab .tab {
+    border-radius:5px!important;
+    padding:2px 18px;
+    margin-left:3px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Karla';
+    cursor: pointer;
+    background:var(--noir)!important;}
+.systab .tab:hover {background:var(--c1)!important}
+.systab .tab.selected{background:var(--gradient)!important;}
 .systab .tab i{font-size:8px;color:var(--color-squircle);}
 .systab .contents{border-radius:5px;color:var(--txt);background:var(--lights1);margin-bottom:5px;margin-left:3px;overflow-x:hidden;overflow-y:auto;margin-top:13px;line-height:130%;width:184px;height:150px;padding:10px;text-align:justify;font-family:arial;font-size:11px;outline:1px solid var(--fond2);outline-offset:2px;font-size:10px;} .systab .contents img{width:174px;}
 .systab.s_float .tab,.systab.s_float .tab {display: block;margin: 5px;}
