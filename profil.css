@@ -94,7 +94,7 @@ width: 237px;
     text-transform: uppercase;
     font-family: 'Karla';
     cursor: pointer;
-    background:var(--noir)!important;}
+    background:-webkit-linear-gradient(-40deg,var(--c5),var(--c6))!important;}
 .fpro .fpro .systab .tab:hover {background:var(--c1)!important}
 .fpro .systab .tab.selected{background:var(--noir)!important;}
 .fpro .systab .tab i{font-size:8px;color:var(--color-squircle);}
