@@ -1,6 +1,16 @@
 /*GESTIONNAIRE DE COMPTE*/
-.switcheroo{position:fixed;z-index:998;top:25px;bottom:0;color:var(--color-text);font-size:14px;}
+.switcheroo{
+    position:fixed;
+    z-index:999;
+    top:25px;
+    right:0;
+    bottom:0;
+    color:var(--txt);
+    font-size:14px;
+}
+
 .switcheroo, .switcheroo *, .switcheroo *:before, .switcheroo *:after{box-sizing:border-box;}
+
 .switcheroo__squircles{margin-top:80px!important;display:flex;flex-direction:column;min-height:100vh;margin:0;padding:0;list-style:none;background-color:var(--color-body);padding:var(--gap-size);gap:var(--gap-size);}
 .switcheroo__squircle{display:flex;align-items:center;justify-content:center;border:1px solid var(--brd);padding:3px;background-color:var(--lgt3);width:35px;height:35px;border-radius:50%;cursor:pointer;position:relative;transition:border-radius 128ms var(--ease);}
 .switcheroo__squircle--button{transition:border-radius 128ms var(--ease);color:#fff;}
