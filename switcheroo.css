@@ -11,8 +11,37 @@
 
 .switcheroo, .switcheroo *, .switcheroo *:before, .switcheroo *:after{box-sizing:border-box;}
 
-.switcheroo__squircles{margin-top:80px!important;display:flex;flex-direction:column;min-height:100vh;margin:0;padding:0;list-style:none;background-color:var(--color-body);padding:var(--gap-size);gap:var(--gap-size);}
-.switcheroo__squircle{display:flex;align-items:center;justify-content:center;border:1px solid var(--brd);padding:3px;background-color:var(--lgt3);width:35px;height:35px;border-radius:50%;cursor:pointer;position:relative;transition:border-radius 128ms var(--ease);}
+.switcheroo__squircles{
+    margin-top:80px!important;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    margin:0;
+    padding:0;
+    list-style:none;
+    background-color:var(--color-body);
+    padding:9px;
+    gap:10px;
+}
+
+.switcheroo__squircle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid #fff;
+    padding:3px;
+    background-color:var(--lgt3);
+    width:26px;
+    height:26px;
+    border-radius:50%;
+    cursor:pointer;
+    position:relative;
+    transition:border-radius 128ms var(--ease);
+    outline: 4px solid var(--c3);
+}
+
+
+
 .switcheroo__squircle--button{transition:border-radius 128ms var(--ease);color:#fff;}
 .switcheroo__squircle--button:hover{color:#fff;background-color:var(--color-button);}
 .switcheroo__squircle:hover{border-radius:36%;}
