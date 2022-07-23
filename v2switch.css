@@ -91,10 +91,34 @@
     pointer-events: none;
 }
 
+.switcheroo__squircle:after {
+    /* puce */
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: var(--bc);
+    position: absolute;
+    border-radius: 4px;
+    top: 50%;
+    transform: translate(-100%, -50%) scale(0);
+    transition: transform 128ms, opacity 64ms;
+    pointer-events:none;
+    opacity:0;
+}
 
-.switcheroo__squircle:before {/* puce */content: "";width: 100%;height: 100%;display: block;background-color: var(--color-pill);position: absolute;border-radius: 4px;top: 50%;transform: translate(-100%, -50%) scale(0);transition: transform 128ms, opacity 64ms;pointer-events:none;opacity:0;}
-.switcheroo__squircle.active {/* puce active */border-radius: 36%;cursor: default;}
-.switcheroo__squircle.active:before {opacity: 1;transform: translate(-85%, -50%) scale(0.2);border-radius: 50%;}
+.switcheroo__squircle.active {
+    /* puce active */
+    border-radius: 36%;
+    cursor: default;
+}
+
+.switcheroo__squircle.active:after {
+    opacity: 1;
+    transform: translate(-85%, -50%) scale(0.2);
+    border-radius: 50%;
+}
+
 .switcheroo__link{display: block;width: 100%;height: 100%;border-radius: inherit;display: flex;align-items: center;justify-content: center;}
 .switcheroo__link:hover {text-decoration: none;}
 .switcheroo__popper {/* tooltip */
