@@ -74,7 +74,10 @@ background:url(https://i.imgur.com/F78MOBM.png);
 
 .ssforum .mCSB_container{margin-right:2px!important}
 
-.ssforumhover{ background:url(https://i.imgur.com/F78MOBM.png);
+.ssforumhover{ 
+  background:var(--aes);
+  font-size:0px;
+    line-height:13px;
   height:130px;
   opacity:0;
   margin-top:-87px;
@@ -82,7 +85,8 @@ background:url(https://i.imgur.com/F78MOBM.png);
   padding-top:10px;
   position:absolute;
   transition:all .75s;
-  width:150px;}
+  width:150px;
+overflow:auto;}
 
 .ssforumhover:hover{opacity:1}
 
