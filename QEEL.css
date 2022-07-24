@@ -72,10 +72,10 @@
     position: relative;
     margin-left: 5px;
     font-family: open sans;
-    display: flex;
     outline: 1px solid var(--blanc);
     outline-offset: 5px;
   margin-top:15px;
+  text-align:justify;
 }
 
 #qeel .online a{
