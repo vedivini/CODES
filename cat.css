@@ -33,7 +33,7 @@
 
 .ssforum{ 
  border-radius:20px 0px 0px 0px;
-background:url(https://i.imgur.com/F78MOBM.png);
+background:var(--aes);
   width:150px; 
   height:130px;
   overflow:hidden;
@@ -63,13 +63,14 @@ background:url(https://i.imgur.com/F78MOBM.png);
   font-family:poppins;
   display: block; 
   font-weight: 400;
-  background-color: var(--noir);
-  color:var(--blanc);
+  background-color: var(--blanc);
+  color:var(--noir);
   width:fit-content;
   padding-right:10px;
   padding-left:10px;
   margin-top:8px;
   opacity:1;
+    border-radius:5px;
 }
 
 .ssforum .mCSB_container{margin-right:2px!important}
@@ -77,7 +78,7 @@ background:url(https://i.imgur.com/F78MOBM.png);
 .ssforumhover{ 
   background:var(--aes);
   font-size:0px;
-    line-height:13px;
+    line-height:16px;
   height:130px;
   opacity:0;
   margin-top:-87px;
@@ -91,8 +92,8 @@ overflow:auto;}
 .ssforumhover:hover{opacity:1}
 
 .ssforumhover a{
-  background-color: rgba(255, 255, 255, 0.2);
-  border:1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--c4);
+  border:1px solidvar(--clr);
   border-radius:20px;
   display:block;
   font-family:calibri;
