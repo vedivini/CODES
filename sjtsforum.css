@@ -184,7 +184,8 @@ f-info f-desc {
   font-family: open sans;
   font-size: 11px;
   letter-spacing: 1px;
-  margin-left: -350px;
+    margin-left: -224px;
+    width: 400px;
 }
 
 #topct c-pl create cl {
