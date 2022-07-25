@@ -133,7 +133,7 @@
     background: linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%)!important;;
     padding: 2px 6px 1px 8px!important;;
     position: absolute;
-    left: 90%;
+    right:160%;
     top: 50%;
     transform-origin: left;
     transform: translateY(-50%) scale(0.98);
