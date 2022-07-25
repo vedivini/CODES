@@ -2,6 +2,7 @@
 position:fixed;
 top:10px;
 right:55px;
+z-index:4!important;
 }
 
 .realTime_alert {
@@ -12,20 +13,28 @@ right:55px;
     position: relative;
     min-height: 30px;
     font-size: 10px;
-    width: 150px;
-    border-radius: 4px;
-    border: 1px solid var(--bdrf);
-    font-family: 'Karla';
+    width: 170px;
+    border-radius: 10px;
+    font-family: poppins;
     color: var(--txt);
-    padding: 10px 10px 5px 10px;
+    padding: 20px;
 }
     
 .realTime_alert b{
-display:block;
-color:var(--color4);
-margin-bottom:5px;
-font-family:vidaloka;
-font-size:12px;}
+display: block;
+    color: var(--c1)!important;
+    margin-bottom: 5px;
+    font-family: 'Archivo Black';
+    font-size: 9px;
+    text-transform: uppercase;
+    transition: .8s;
+    letter-spacing: -.5px;}
+
+.realTime_alert b{
+background-color:var(--c3);
+border-radius:5px;
+    transition: .8s;
+}
 
 .realTime_alert .close{
 position:absolute;
