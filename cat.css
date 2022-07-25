@@ -212,7 +212,7 @@ padding:1px;
 }
 
 .sep{
-  border-top:1px solid #00000008;
+  border-top:1px solid var(--seep);
   width:155px;
   margin-left:10px;
 }
