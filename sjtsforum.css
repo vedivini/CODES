@@ -224,7 +224,7 @@ f-info f-desc {
 }
 
 #topct .pulse a{
-  color:var(--blanc);
+  color:#fff;
 }
 
 #topct .pulse:active {
@@ -240,7 +240,7 @@ f-info f-desc {
 
 @keyframes pulsing {
   from {
-    box-shadow: 0 0 0 0 var(--blanc);
+    box-shadow: 0 0 0 0 #fff);
   }
   70% {
     box-shadow: 0 0 0 8px var(--transparentBlue);
