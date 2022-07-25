@@ -118,7 +118,7 @@ padding:1px;
 
 .last_cat{
   width:818px;
-  background:#fff;
+  background:var(--blanc);
   font-size:12px;
   font-family:arial;
   color:var(--txt);
@@ -148,7 +148,7 @@ padding:1px;
     font-family: archivo black;
     font-size: 10px;
     margin: auto;
-    text-shadow: 1px 1px 0 #fff;
+    text-shadow: 1px 1px 0 var(--blanc);
     text-transform: uppercase;
     margin-top: 3px;
   color:var(--c1);
