@@ -62,7 +62,7 @@
 #qeel .online{
     height:40px;
     width: 320px;
-    background-color: #fff;
+    background-color: var(--blanc);
     padding: 15px;
     font-size: 9px;
     font-weight: 300;
@@ -347,14 +347,14 @@
     font-size: 20px;
     padding: 5px;
     margin-top: -5px;
-  color:var(--blanc);
+  color:#fff;
 }
 
 #qeel .statinfos{
-  border-top: solid 1px var(--blanc);
+  border-top: solid 1px :#fff;
   font-family:poppins;
   text-transform:uppercase;
-  color:var(--blanc);
+  color::#fff;
   width:95px;
   font-size:8px;
   margin: 0px 5px 15px 5px;
