@@ -16,14 +16,13 @@ bla:hover {
   background-color:var(--c3)!important; transition: .5s  !important;border-radius:5px;}
 
     ah{
-    font-family:'merriweather';
+    font-family:'archivo black';
     font-size:9px;
     text-transform:uppercase;
-    letter-spacing:.5px;
     border-bottom:1px solid transparent;
     transition: all 0.5s;
-    color:var(--color4);} 
-    ah:hover{border-bottom:1px solid var(--color1);}
+    color:var(--c4);} 
+    ah:hover{border-bottom:1px solid var(--c1);}
 
     t1{
     text-shadow:1px 1px 0px var(--shadow);
