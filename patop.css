@@ -60,7 +60,7 @@
   width: 110px;
   height: 4px;
   border-radius: 30px;
-  background: #ebebeb;
+  background: var(--accent);
 }
 
 #patop .stats stats_line .progress_wish {
@@ -247,7 +247,7 @@
     margin:0px 7px 0px 12px;
 }
 #patop links_container {  
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -433,7 +433,7 @@ margin:8px;}
   color:#fff;
 }
 #patop .sec3 .infos span c {
-  background: #333;
+  background: var(--noir);
 }
 
 
