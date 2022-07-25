@@ -30,7 +30,7 @@ display: block;
     transition: .8s;
     letter-spacing: -.5px;}
 
-.realTime_alert b{
+.realTime_alert b:hover{
 background-color:var(--c3);
 border-radius:5px;
     transition: .8s;
