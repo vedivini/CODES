@@ -90,7 +90,7 @@ overflow:auto;}
 .ssforumhover:hover{opacity:1}
 
 .ssforumhover a{
-  background-color: var(--noir);
+  background-color: var(--blanc);
   border-radius:20px;
   display:block;
   font-family:poppins;
@@ -100,8 +100,8 @@ overflow:auto;}
 padding:1px;
   text-align:center;
   text-transform:uppercase;width:125px!important;margin-bottom:-13px;margin-left:10px;}
-.ssforum a{color:var(--blanc);}
-.ssforum a:hover{color:var(--blanc);}
+.ssforum a{color:var(--noir);}
+.ssforum a:hover{color:var(--noir);}
 
 .info_cat{
   background-color:var(--cbg);
