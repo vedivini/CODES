@@ -74,14 +74,12 @@ background:var(--aes);
 .ssforum .mCSB_container{margin-right:2px!important}
 
 .ssforumhover{ 
+    margin-top:-87.5px!important;
   background:var(--aes);
   font-size:0px;
     line-height:16px;
   height:130px;
   opacity:0;
-  margin-top:-87px;
-  padding-bottom:10px;
-  padding-top:10px;
   position:absolute;
   transition:all .75s;
   width:150px;
