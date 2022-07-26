@@ -25,7 +25,7 @@
   margin: auto; 
   margin-top: 0px;
   border-radius:5px;
-  background:#ffffff40;
+  background:var(--brd);
   position: relative;
   overflow: hidden;
 }
@@ -51,7 +51,7 @@
     font-family: poppins;
     font-weight: 600;
     background: linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
-    color: var(--blanc);
+    color: #fff;
     padding: 2px 6px 1px 8px;
     border-radius: 25px;
   font-size:12px;
@@ -144,9 +144,10 @@
   margin-top:-30px;
   width:370px;
   padding:20px;
-  background-color:var(--cbg);
+  background-color:var(--body2);
   height:auto;
   min-height:50px;
+  outline:1px solid var(--c6);
 }
 
 .cont_liens .ftxt{
