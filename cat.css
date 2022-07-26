@@ -85,6 +85,9 @@ background:var(--aes);
   width:150px;
 overflow:auto;}
 
+.ssforumhover::-webkit-scrollbar { 
+  width: 0 !important }
+
 .ssforumhover:hover{opacity:1}
 
 .ssforumhover a{
