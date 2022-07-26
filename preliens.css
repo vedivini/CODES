@@ -1,0 +1,168 @@
+#fd_liens {
+  padding: 15px;
+  width: 520px;
+  height: auto;
+  margin: auto; 
+  position: relative;
+  overflow: hidden;
+}
+
+#fd_liens .innerfiche {
+  padding: 10px;
+  width: 500px;
+  height: auto;
+  border-radius:10px;
+  margin: auto; 
+  margin-top: 0px;
+  position: relative;
+  border: 1px solid var(--blanc);
+}
+
+#fd_liens .con {
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  margin: auto; 
+  margin-top: 0px;
+  border-radius:5px;
+  background:#ffffff40;
+  position: relative;
+  overflow: hidden;
+}
+
+#fd_liens .tit {
+  text-transform: uppercase;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 8px;
+  letter-spacing:.5px;
+  color: var(--citt);
+  margin: auto;
+  width: 340px;
+  height: auto;
+  background: none;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom:20px;
+}
+
+#fd_liens .tit b {
+  display:inline-block!important;
+    font-family: poppins;
+    font-weight: 600;
+    background: linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
+    color: var(--blanc);
+    padding: 2px 6px 1px 8px;
+    border-radius: 25px;
+  font-size:12px;
+}
+#fd_liens .tit .stit {
+  margin:0 auto;
+  width:350px;
+  margin-top:5px;
+  margin-bottom:-8px;
+}
+
+.if_liens{
+  background-color:var(--body2); 
+  width:400px; 
+  height:180px;
+  margin:auto;
+  margin-top:20px;
+  border-radius:8px;
+  padding:5px;
+}
+
+.if_liens .inner_liens{
+  width:370px;
+  height:170px;
+  overflow:auto;
+  color:var(--txt);
+  padding-right:5px;
+  padding-top:5px;
+  margin:auto;
+  text-align:justify;
+  font-size:11px;
+  font-family:open sans;
+}
+
+.perso_liens{
+  display:flex;
+  width:410px;
+  margin:0 auto;
+  height:100px;
+}
+
+.perso_liens .frien-c {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  background: var(--c3);
+  border-radius: 100%;
+  margin-right:5px;
+}
+
+.perso_liens .frien-c .f-img {
+  width: 43px;
+  height: 43px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #fff;
+  transition:0.8s;
+}
+  
+.perso_liens .frien-c .f-img:hover{
+  transform: scale(1) rotate(20deg)!important;
+  transition: all ease 0.5s;
+  outline:3px;
+  opacity:.8;
+}
+
+.ftitre_liens{
+  height:35px;
+  width:330px;
+  padding:10px;
+}
+.ftitre_liens c {
+   background: var(--noir)!important;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-size: 8px;
+  line-height: 11px;
+  padding: 4px 8px 3px;
+  border-radius: 25px;
+  margin-right: 4px;
+  color:#fff;
+  transition:.5s !important;
+}
+
+.cont_liens{
+  margin:0 auto;
+  border-radius:5px;
+  margin-top:-30px;
+  width:370px;
+  padding:20px;
+  background-color:var(--cbg);
+  height:auto;
+  min-height:50px;
+}
+
+.cont_liens .ftxt{
+  color:var(--txt);
+  text-align:justify;
+  overflow:auto;
+  height:100%;
+  font-size:11px;
+  font-family:open sans;
+  padding-right:8px;
+}
+
+.ftitre_liens f{
+  text-transform: uppercase;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 8px;
+  letter-spacing:.5px;
+  color: var(--citt);
+}
