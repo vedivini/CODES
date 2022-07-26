@@ -43,7 +43,6 @@
   background: none;
   text-align: center;
   margin-top: 40px;
-  margin-bottom:20px;
 }
 
 #fd_liens .tit b {
@@ -68,9 +67,9 @@
   width:400px; 
   height:180px;
   margin:auto;
-  margin-top:20px;
   border-radius:8px;
   padding:5px;
+  margin-bottom:-20px;
 }
 
 .if_liens .inner_liens{
@@ -90,7 +89,7 @@
   display:flex;
   width:410px;
   margin:0 auto;
-  height:100px;
+  height:80px;
 }
 
 .perso_liens .frien-c {
