@@ -42,7 +42,8 @@
   height: auto;
   background: none;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 25px;
+  margin-bottom: -20px;
 }
 
 #fd_liens .tit b {
@@ -69,7 +70,8 @@
   margin:auto;
   border-radius:8px;
   padding:5px;
-  margin-bottom:-20px;
+      margin-bottom: -20px;
+    margin-top: -25px;
 }
 
 .if_liens .inner_liens{
