@@ -286,43 +286,7 @@
   margin:auto;
   margin-top:-20px;
 }
-  
-  .txtprev:first-child, .txtprev:nth-child(2), .txtprev:nth-child(3), .txtprev:nth-child(4), .txtprev:nth-child(5), .txtprev:nth-child(6), 
-  .txtprev:nth-child(7), .txtprev:nth-child(8), .txtprev:nth-child(9), .txtprev:nth-child(10), .txtprev:nth-child(14), .txtprev:nth-child(15), .txtprev:nth-child(16), .txtprev:nth-child(17), .txtprev:nth-child(18), 
-  .txtprev:nth-child(19), .txtprev:nth-child(20), .txtprev:nth-child(21), .txtprev:nth-child(22), .txtprev:nth-child(23), .txtprev:nth-child(24), .txtprev:nth-child(25){display:none!important;}
-  
-  .txtprev2{width:150px;}
-  .txtprev2:first-child, .txtprev2:nth-child(2), .txtprev2:nth-child(3), .txtprev2:nth-child(4), .txtprev2:nth-child(5), .txtprev2:nth-child(7), 
-  .txtprev2:nth-child(8), .txtprev2:nth-child(9), .txtprev2:nth-child(10), .txtprev2:nth-child(11), .txtprev2:nth-child(12), .txtprev2:nth-child(13), .txtprev2:nth-child(14), .txtprev2:nth-child(15), 
-  .txtprev2:nth-child(16), .txtprev2:nth-child(17), .txtprev2:nth-child(18), .txtprev2:nth-child(19), .txtprev2:nth-child(20), 
-  .txtprev2:nth-child(21), .txtprev2:nth-child(22), .txtprev2:nth-child(23), .txtprev2:nth-child(24), .txtprev2:nth-child(25){display:none!important;}
-  
-  .txtprev3{width:150px;}
-  .txtprev3:first-child, .txtprev3:nth-child(3), .txtprev3:nth-child(4), .txtprev3:nth-child(5), .txtprev3:nth-child(6), .txtprev3:nth-child(7), 
-  .txtprev3:nth-child(8), .txtprev3:nth-child(9), .txtprev3:nth-child(10), .txtprev3:nth-child(11), .txtprev3:nth-child(12), .txtprev3:nth-child(13), .txtprev3:nth-child(14), .txtprev3:nth-child(15), 
-  .txtprev3:nth-child(16), .txtprev3:nth-child(17), .txtprev3:nth-child(18), .txtprev3:nth-child(19), .txtprev3:nth-child(20), 
-  .txtprev3:nth-child(21), .txtprev3:nth-child(22), .txtprev3:nth-child(23), .txtprev3:nth-child(24), .txtprev3:nth-child(25){display:none!important;}
-  
-  .txtprev4{padding:5px 5px 10px 10px;} .txtprev4:nth-child(7) label{display:none;} 
-  .txtprev4:first-child, .txtprev4:nth-child(2), .txtprev4:nth-child(3), .txtprev4:nth-child(4), .txtprev4:nth-child(5), .txtprev4:nth-child(6),
-  .txtprev4:nth-child(11), .txtprev4:nth-child(13), .txtprev4:nth-child(14){display:none!important;}
-  
-  .txtprev5{width:150px;}
-  .txtprev5:first-child, .txtprev5:nth-child(2), .txtprev5:nth-child(4), .txtprev5:nth-child(5), .txtprev5:nth-child(6), .txtprev5:nth-child(7), 
-  .txtprev5:nth-child(8), .txtprev5:nth-child(9), .txtprev5:nth-child(10), .txtprev5:nth-child(11), .txtprev5:nth-child(12), .txtprev5:nth-child(13), .txtprev5:nth-child(14), .txtprev5:nth-child(15), 
-  .txtprev5:nth-child(16), .txtprev5:nth-child(17), .txtprev5:nth-child(18), .txtprev5:nth-child(19), .txtprev5:nth-child(20), 
-  .txtprev5:nth-child(21), .txtprev5:nth-child(22), .txtprev5:nth-child(23), .txtprev5:nth-child(24), .txtprev5:nth-child(25){display:none!important;}
-  
-  .txtprev6:first-child, .txtprev6:nth-child(2), .txtprev6:nth-child(3), .txtprev6:nth-child(4), .txtprev6:nth-child(6), .txtprev6:nth-child(7), 
-  .txtprev6:nth-child(8), .txtprev6:nth-child(9), .txtprev6:nth-child(10), .txtprev6:nth-child(11), .txtprev6:nth-child(12), .txtprev6:nth-child(13), .txtprev6:nth-child(14), .txtprev6:nth-child(15), 
-  .txtprev6:nth-child(16), .txtprev6:nth-child(17), .txtprev6:nth-child(18), .txtprev6:nth-child(19), .txtprev6:nth-child(20), 
-  .txtprev6:nth-child(21), .txtprev6:nth-child(22), .txtprev6:nth-child(23), .txtprev6:nth-child(24), .txtprev6:nth-child(25){display:none!important;}
-  
-  .txtprev7:nth-child(2), .txtprev7:nth-child(3), .txtprev7:nth-child(4), .txtprev7:nth-child(5), .txtprev7:nth-child(6), .txtprev7:nth-child(7), 
-  .txtprev7:nth-child(8), .txtprev7:nth-child(9), .txtprev7:nth-child(10), .txtprev7:nth-child(11), .txtprev7:nth-child(12), .txtprev7:nth-child(13), .txtprev7:nth-child(14), .txtprev7:nth-child(15), 
-  .txtprev7:nth-child(16), .txtprev7:nth-child(17), .txtprev7:nth-child(18), .txtprev7:nth-child(19), .txtprev7:nth-child(20), 
-  .txtprev7:nth-child(21), .txtprev7:nth-child(22), .txtprev7:nth-child(23), .txtprev7:nth-child(24), .txtprev7:nth-child(25){display:none!important;}
-
+ 
   .profstats{margin:0 auto;width:100%;
       margin-top: 18px;
     margin-bottom: 10px;}
