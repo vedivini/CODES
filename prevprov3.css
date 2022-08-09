@@ -287,8 +287,8 @@
   margin-top:-20px;
 }
   
-  .txtprev:first-child, .txtprev:nth-child(2), .txtprev:nth-child(3), .txtprev:nth-child(5), .txtprev:nth-child(6), 
-  .txtprev:nth-child(7), .txtprev:nth-child(8), .txtprev:nth-child(9), .txtprev:nth-child(10), .txtprev:nth-child(12), .txtprev:nth-child(15), .txtprev:nth-child(16), .txtprev:nth-child(17), .txtprev:nth-child(18), 
+  .txtprev:first-child, .txtprev:nth-child(2), .txtprev:nth-child(3), .txtprev:nth-child(4), .txtprev:nth-child(5), .txtprev:nth-child(6), 
+  .txtprev:nth-child(7), .txtprev:nth-child(8), .txtprev:nth-child(9), .txtprev:nth-child(10), .txtprev:nth-child(14), .txtprev:nth-child(15), .txtprev:nth-child(16), .txtprev:nth-child(17), .txtprev:nth-child(18), 
   .txtprev:nth-child(19), .txtprev:nth-child(20), .txtprev:nth-child(21), .txtprev:nth-child(22), .txtprev:nth-child(23), .txtprev:nth-child(24), .txtprev:nth-child(25){display:none!important;}
   
   .txtprev2{width:150px;}
