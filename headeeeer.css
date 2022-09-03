@@ -32,12 +32,12 @@ font-size:9px;}
     margin: auto;
 }
      
-     .header_image { background:var(--imghead);
+.header_image { background:var(--imghead);
 width:300px;
-height:590px;
+height:250px;
 background-size:100% !important;
 position:relative;
-top:240px;}
+top:210px;}
 
 .header_elipse { background:url(https://images2.imgbox.com/8d/de/7fTUQmM6_o.png);
 width:500px;
@@ -73,3 +73,11 @@ top:-120px;}
   transition: all ease .8s;
   color:var(--c5) !important;
 }
+
+.header_container {
+align-items:center;
+width: calc(100% - 590px);
+    height: 100%;
+    margin: auto;
+}
+     
