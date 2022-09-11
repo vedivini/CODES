@@ -14,8 +14,8 @@ transition: 0.8s;}
 #web_cont img:hover {
 opacity: 0.5;}
 
-#web_cont a {color: #fff;} 
-#web_cont a:hover {color: #ffffff90;}
+#web_cont a {var(--noir);} 
+#web_cont a:hover {var(--txt);}
 
 /*haut youtube*/
 .img_bann {
@@ -100,7 +100,6 @@ color: var(--noir);}
 
 .web_inf1 ti {
 font-weight: bold; 
-border-bottom: 2px solid black;
 text-transform: uppercase;
 margin-bottom: 8px;}
 
@@ -130,14 +129,14 @@ border-top: 1px solid #414141;}
 cate {
   font-family: "Gill Sans Extrabold", sans-serif;
   font-size:11px;
-  color:var(--noir);
+  color: var(--noir);
   font-weight:bold; 
   margin-left:3px;
   text-transform:uppercase;
 }
 
 cate2 {
-    font-family: "Gill Sans Extrabold", sans-serif;
+  font-family: "Gill Sans Extrabold", sans-serif;
   font-size:11px;
   color:#414141;
   font-weight:bold; 
