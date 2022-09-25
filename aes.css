@@ -212,8 +212,9 @@ bla:hover {
     margin-bottom: 5px;} 
     
     deux{
-    font-family:vidaloka;
-    font-size:12px;
+    font-family:poppins;
+    font-weight: 600;
+    font-size:11px;
     text-transform:uppercase;
     color:var(--noir);} 
 
