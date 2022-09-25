@@ -228,19 +228,19 @@ bla:hover {
 
     
     iii{
-    color:#999999;
-    font-family: 'Vidaloka',serif;
-    text-shadow:1px 1px 0 var(--shadow);
-    letter-spacing:-.4px;
-    font-size:13px;
-    font-style:italic;} 
+    color: #999999;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 0 var(--shadow);
+    letter-spacing: -.4px;
+    font-size: 11px;
+    border-radius: 5px;} 
     
     bg{
-    text-transform:uppercase;
-    font-family: 'Vidaloka',serif;
-    text-shadow:1px 1px 0 var(--shadow);
-    letter-spacing:-.4px;
-    font-size:11px;}
+       text-transform: uppercase;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 0 var(--shadow);
+    letter-spacing: -.4px;
+    font-size: 10px;}
    
 
 nw{letter-spacing:1px;font-family:playfair display;color:var(--c1);font-weight:900;font-size:9px;}
