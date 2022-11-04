@@ -315,7 +315,7 @@ background: linear-gradient(to right, var(--c6) 25%, var(--c4) 75%);
   transition: 300ms ease;}
 #patop .link_aes2:hover{
     	color: white;
-    	color: var(--c6);
+    	color: #fff;
     	background-position: 99% 50%;
 }
 #patop .links .title{
