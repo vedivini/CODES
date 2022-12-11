@@ -5,15 +5,15 @@
 }
 
 .comknetz .comment {
-  background:#fff;
+  background:var(--blanc);
   border-radius:10px;
   font-size:10.5px;
   padding:10px 15px;
   position: relative;
 }
 
-.comknetz .user {color: #000;margin-bottom: 5px;}
-.comknetz .txt {color: #888;line-height: 120%;font-size: 10px;}
+.comknetz .user {color: var(--citt);margin-bottom: 5px;}
+.comknetz .txt {color: var(--txt);line-height: 120%;font-size: 10px;}
 
 .comknetz .pic {
   position: absolute;
