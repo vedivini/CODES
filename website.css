@@ -106,7 +106,7 @@ object-fit:cover;}
 
 .web_inf1 t {
   font-weight:bold; 
-  border-bottom:2px solid black;
+  border-bottom:2px solid var(--noir);
 color:var(--noir);}
 
 .web_img2 {
