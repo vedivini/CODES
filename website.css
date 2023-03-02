@@ -186,7 +186,7 @@ color:var(--noir);}
 #web_tracklist { 
   width:100px; 
   height:100px; 
-  background:white; 
+  background:var(--blanc); 
   opacity:0; 
   overflow:auto; 
   position:relative; 
