@@ -1,8 +1,8 @@
-.slider_cont{margin:0 auto;background-color:white; border:solid 1px #00000018; width:500px !important; height:auto; padding:0px 5px 5px 5px;}
-.slider_title{font-family:karla; font-weight:bold; font-size:16px; color:#111; border-bottom:2px solid #111; text-align:left; padding:0px 0px 8px 8px; margin:25px 5px 20px 5px;}
+.slider_cont{margin:0 auto;background-color:var(--blanc); border:solid 1px var(--accent); width:500px !important; height:auto; padding:0px 5px 5px 5px;}
+.slider_title{font-family:karla; font-weight:bold; font-size:16px; color:var(--noir); border-bottom:2px solid var(--noir); text-align:left; padding:0px 0px 8px 8px; margin:25px 5px 20px 5px;}
 .web_conter{width:470px;height:auto;margin:15px;margin-top:-25px;}
 
-.slider_title2 {font-family:karla; font-size:15px; color:#111; text-align:left; margin:10px 0px 0px 10px; text-transform:uppercase;}
+.slider_title2 {font-family:karla; font-size:15px; color:var(--noir); text-align:left; margin:10px 0px 0px 10px; text-transform:uppercase;}
 
 .web_cont .tabs-onglets {
   position:relative;
