@@ -305,3 +305,9 @@ color:var(--noir);}
 
 .web_onglets label.onglet_name:hover {
   background-color:#999;}
+
+#web_artist {width:135px;height:135px;object-fit:cover;margin:2px 2px 2px 2px;transition:0.8s;background-size:135px!important;background-position:center!important;} 
+#web_artist:hover{background-size:185px !important;filter:grayscale(0.7);} 
+#web_access {width:40px;height:68px; background:transparent; visibility:hidden; position:relative; left:35px; top:35px;-webkit-transition:0.5s all linear; -moz-transition:0.5s all linear; margin-bottom:-50px; padding:10px; font-family: Karla; text-align: left; overflow:auto;font-size:9px;opacity:0; -webkit-animation: fadein 3s; -moz-animation: fadein 3s; animation: fadein 3s;} 
+#web_artist:hover #web_access{ visibility:visible;opacity:0.9;} .web_linkaccess{background:black;border-radius:100%;width:40px;height:28px;text-align:center;padding-top:12px;} 
+.web_linkaccess a {color:white;text-decoration:none;text-transform:uppercase;font-size:7px;letter-spacing:0.5px;}
