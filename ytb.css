@@ -179,7 +179,7 @@ flex-direction: row;}
 
 ytbtt {
 font-weight: bold;
-color: white;
+color: var(--noir);
 font-size: 9px;
 line-height:150%;
 width:120px;}
