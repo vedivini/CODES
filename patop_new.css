@@ -395,7 +395,7 @@ margin:8px;}
   width:35px;height:35px;
   mix-blend-mode:screen;
   background-image: url(https://64.media.tumblr.com/fa4f18acb22f256b1a997908500f7c57/85bdeb842cc0952f-32/s540x810/9df46d1d89cb0d1a05bce3630eac0236814805e5.gif);
-  background-size:100%;
+  background-size:150%;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
   transition:.8s;}
@@ -404,7 +404,7 @@ margin:8px;}
   width:35px;height:35px;
   mix-blend-mode:screen;
   background-image: url(https://64.media.tumblr.com/bf89790a9ada79655474b20d00cecf2e/e084c774d6e20f86-1f/s540x810/77dbe6927874210d3fd65b4f796a51f0de363959.gif);
-  background-size:150%;
+  background-size:100%;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
   transition:.8s;}
