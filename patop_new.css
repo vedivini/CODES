@@ -70,7 +70,7 @@
   transition-property: width; 
 }
 #patop .stats stats_line .progress_wish_anim {
-  width: 85%; 
+  width: 60%; 
   background-color: var(--c4); 
   animation: anim_wish 4s;
   height: 4px;
@@ -78,7 +78,7 @@
 }
 @keyframes anim_wish {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 85%; background-color: var(--c4); }
+  100% { width: 60%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_gn {
@@ -90,13 +90,13 @@
 #patop .stats stats_line .progress_gn_anim {
    height: 4px;
   border-radius: 30px;
-  width: 55%; 
+  width: 85%; 
   background-color: var(--c4); 
   animation: anim_gn 4s;
 }
 @keyframes anim_gn {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 55%; background-color: var(--c4); }
+  100% { width: 85%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_mys {
@@ -108,13 +108,13 @@
 #patop .stats stats_line .progress_mys_anim {
    height: 4px;
   border-radius: 30px;
-  width: 60%; 
+  width: 40%; 
   background-color: var(--c4); 
   animation: anim_mys 4s;
 }
 @keyframes anim_mys {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 60%; background-color: var(--c4); }
+  100% { width: 40%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_xing {
@@ -126,7 +126,7 @@
 #patop .stats stats_line .progress_xing_anim {
    height: 4px;
   border-radius: 30px;
-  width: 25%; 
+  width: 40%; 
   background-color: var(--c4); 
   animation: anim_xing 4s;
 }
@@ -180,13 +180,13 @@
 #patop .stats stats_line .progress_ind_anim {
    height: 4px;
   border-radius: 30px;
-  width: 45%; 
+  width: 20%; 
   background-color: var(--c4); 
   animation: anim_ind 4s;
 }
 @keyframes anim_ind {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 45%; background-color: var(--c4); }
+  100% { width: 20%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_free {
