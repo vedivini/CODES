@@ -70,7 +70,7 @@
   transition-property: width; 
 }
 #patop .stats stats_line .progress_wish_anim {
-  width: 85%; 
+  width: 60%; 
   background-color: var(--c4); 
   animation: anim_wish 4s;
   height: 4px;
@@ -78,7 +78,7 @@
 }
 @keyframes anim_wish {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 85%; background-color: var(--c4); }
+  100% { width: 60%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_gn {
@@ -90,13 +90,13 @@
 #patop .stats stats_line .progress_gn_anim {
    height: 4px;
   border-radius: 30px;
-  width: 55%; 
+  width: 85%; 
   background-color: var(--c4); 
   animation: anim_gn 4s;
 }
 @keyframes anim_gn {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 55%; background-color: var(--c4); }
+  100% { width: 85%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_mys {
@@ -108,13 +108,13 @@
 #patop .stats stats_line .progress_mys_anim {
    height: 4px;
   border-radius: 30px;
-  width: 60%; 
+  width: 40%; 
   background-color: var(--c4); 
   animation: anim_mys 4s;
 }
 @keyframes anim_mys {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 60%; background-color: var(--c4); }
+  100% { width: 40%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_xing {
@@ -126,7 +126,7 @@
 #patop .stats stats_line .progress_xing_anim {
    height: 4px;
   border-radius: 30px;
-  width: 25%; 
+  width: 40%; 
   background-color: var(--c4); 
   animation: anim_xing 4s;
 }
@@ -180,13 +180,13 @@
 #patop .stats stats_line .progress_ind_anim {
    height: 4px;
   border-radius: 30px;
-  width: 45%; 
+  width: 20%; 
   background-color: var(--c4); 
   animation: anim_ind 4s;
 }
 @keyframes anim_ind {
   0%   { width: 1%; background-color: var(--c4);}
-  100% { width: 45%; background-color: var(--c4); }
+  100% { width: 20%; background-color: var(--c4); }
 }
 
 #patop .stats stats_line .progress_free {
@@ -373,7 +373,7 @@ margin:8px;}
   background-position:center;
   width:50px;height:50px;
   mix-blend-mode:screen;
-  background-image: url(https://64.media.tumblr.com/5b462450c571e6836503a3e71f0b90a4/aa42d5a8415142a1-1c/s640x960/bd3928fdc7d4e1e22b4b23583d82cc7d5e952058.gif);
+  background-image: url(https://64.media.tumblr.com/0dbda7a24f62247571571b036cb497e2/20fb7cddc572ef2d-f1/s540x810/3f8e3a69cdf166e7517f36bacd4bec978e3d9298.gif);
   background-size:150%;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
@@ -382,7 +382,7 @@ margin:8px;}
   background-position:top;
   width:50px;height:50px;
   mix-blend-mode:screen;
-  background-image: url(https://64.media.tumblr.com/451ffbf7f5c3aeeceb082234435edb93/cd3ca91ab0b19c0b-10/s540x810/95b8a01a8b6eba8f3d7a4c9ea7811d43a9db3713.gif);
+  background-image: url(https://64.media.tumblr.com/8f70abed8bc9a8592aaa56f96553beb6/143e24a91ce0297a-fc/s540x810/1dd9ae56936a7956751892abcfa9bbd75e7a2fc1.gif);
   background-size:150%;
 	background-position:center;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
@@ -392,7 +392,7 @@ margin:8px;}
   background-position:center;
   width:50px;height:50px;
   mix-blend-mode:screen;
-  background-image: url(https://64.media.tumblr.com/b2a1fe2e99fea2fabb80f85965faa9e2/5b30973560d5dbef-ac/s400x600/f126f4f55347a739d194fe01be9d38d09b341cde.gif);
+  background-image: url(https://64.media.tumblr.com/b5bab56b7e7a8acd3e7e645f08566eaa/dc40e537d08fd648-ea/s540x810/88e39a1a867011b9da3a822664299aa8fbbbba4d.gif);
   background-size:100%;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
@@ -401,7 +401,7 @@ margin:8px;}
   background-position:top;
   width:50px;height:50px;
   mix-blend-mode:screen;
-  background-image: url(https://64.media.tumblr.com/26a98cd46993f5702fdac7f4e457f31d/0c17deebd118a5e2-80/s540x810/a726f2a633e9bb995a405f2c08f5f68363118dbb.gif);
+  background-image: url(https://64.media.tumblr.com/32f5e1243433420583c4112bfe68591c/85c62539eb40a1f9-6d/s540x810/d183393791c925bebe68910b8aeb5c1ed7c0b38f.gif);
   background-size:150%;
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
