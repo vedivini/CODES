@@ -409,7 +409,7 @@ margin:8px;}
   filter: grayscale(100%);-webkit-filter: grayscale(100%);
   border-radius:100%;
   transition:.8s;
-background-position:let; }
+background-position:left; }
 #patop .staff .mogo {
   background-position:center;
   width:35px;height:35px;
