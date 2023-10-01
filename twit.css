@@ -1,3 +1,4 @@
+
 .twitbg{
   background-color: var(--blanc);
   width: 490px;
@@ -65,7 +66,7 @@
 
 .mb-4 ln {
   margin:0
-  color:rgb(139, 152, 165);
+  color:var(--twitxt);
   line-height:23px;
 }
 
