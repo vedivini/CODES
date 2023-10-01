@@ -1,0 +1,119 @@
+.twitbg{
+  background-color: var(--blanc);
+  width: 490px;
+  height:auto;
+  margin:0 auto;
+  padding:10px;
+  border-radius:10px;
+  font-family: arial;
+  -webkit-font-smoothing: antialiased;
+}
+
+.twitflex {
+  width:100%;
+  padding:14px;
+  display: flex;
+}
+
+*,::after,::before{
+  box-sizing:border-box;
+  border-width:0;
+  border-style:solid;
+  border-color:#e2e8f0}
+hr{border-top-width:1px}
+
+.twitic{
+  margin-right:20px;
+  flex-shrink:0;
+  height:48px;
+  width:48px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  border-radius: 9999px;
+}
+
+.twitic img{
+  height:48px;
+  width:48px;
+  cursor: pointer;
+  border-radius: 9999px;
+  object-fit:cover;
+}
+
+.twitinner{
+  flex: 1 1 0%;
+  --text-opacity: 1;
+    color: #a0aec0;
+    color: rgba(160,174,192,var(--text-opacity));
+  font-size:16px;
+}
+
+.twitusrn{
+  font-weight: 700;
+  color: #2d3748;
+  color: var(--noir);
+  margin-right:8px;
+}
+
+.mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 15px;
+  margin-top:-5px;
+}
+
+p {
+  margin:0
+    --text-opacity: 1;
+    color: #4a5568;
+    color: rgba(74,85,104,var(--text-opacity));
+  line-height:23px;
+}
+
+.twitss {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.iconsstt{
+  width:20px;
+  margin-right:10px;
+  cursor:pointer;
+      --text-opacity: 1;
+    color: #a0aec0;
+    color: rgba(160,174,192,var(--text-opacity));
+}
+
+.flex{
+  display:flex;
+}
+
+.pptt {
+    width: 25%;
+}
+
+.imgtwitp{
+  width:100%;
+  border-radius:10px;
+}
+
+.imgtwitp2{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:2px;
+}
+
+.imgtwitp2 img{
+  width:49.8%;
+  display: flex;
+  border-radius:5px;
+  object-fit:cover;
+  height:200px;
+}
