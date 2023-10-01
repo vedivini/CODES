@@ -16,12 +16,6 @@
   display: flex;
 }
 
-*,::after,::before{
-  box-sizing:border-box;
-  border-width:0;
-  border-style:solid;
-  border-color:#e2e8f0}
-
 .twitbg jp{border-top-width:1px;border-color:#e2e8f0;}
 
 .twitic{
