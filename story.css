@@ -26,6 +26,10 @@ img.post_story {
   object-position:center;
 } 
 
+.content-insta.post_story img {
+  width: 100%;
+}
+
 .box_insta.story .tabs-onglets {
   z-index:3!important;
 } 
