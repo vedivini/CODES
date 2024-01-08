@@ -9,7 +9,7 @@
   border:1px solid #d3d3d3;
   overflow:hidden;
   margin:0 auto;
-  font-family:Helvetica Neue;
+  font-family:var(--font-family-system);
 }
 
 .info_insta {
@@ -65,7 +65,7 @@
   padding: .3em;
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(45deg, rgba(236,237,243,1) 0%, rgba(228,229,233,1) 100%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .pinsta-right {
   padding:15px;
@@ -116,7 +116,7 @@
   margin:5px;
   font-size:10px;
   color:#00000060;
-  font-family:arial;
+  font-family:var(--font-family-system);
   text-transform:uppercase;
   font-weight:bold;
   letter-spacing:-1px;
