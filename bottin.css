@@ -1,11 +1,26 @@
 :root{
   --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --twitxt:rgba(0,0,0,1.00);
+  /*YTB*/
+  --ytb1:#efefef;
+  --ytb2:#00000020;
+  --ytb3:#00000005;
+  --ytb4:#d6d6d6;
+  --ytb5:#ebebeb;
   /*IMG*/
-  --headerimg:url(https://i.imgur.com/gX9B13d.png);
-  --bodybgimg: url(https://i.imgur.com/Sue4MUB.png);
-  --fdbg:url(https://i.imgur.com/Sue4MUB.png);
-  --aes:url(https://zupimages.net/up/23/48/3jca.png);
+  --headerimg:url(https://i.imgur.com/NI71iez.jpg);
+  --bodybgimg: url(https://i.imgur.com/atFNz3e.jpg);
+  --fdbg:url(https://i.imgur.com/atFNz3e.jpg);
+  --aes:url(https://i.imgur.com/GVPwo8y.jpg);
   --imghead:url(https://images2.imgbox.com/31/9c/F43i0s4H_o.png);
+  /*SWITCHEROO*/
+  --color-bg:#f6f6f6;
+  --color-delete:#e74c3c;
+  --color-squircle:#fafafa;
+  --color-accent:#fff;
+  --color-pill:#fff;
+  --ease:cubic-bezier(0.4, 0.0, 0.2, 1);
+  --ease-bounce:cubic-bezier(0.43, 0.09, 0.38, 2.56);
   /*COULEUR BASE*/
   --sidebar: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.1));
   --bodyline:#ffffff80;
@@ -54,33 +69,32 @@
   --hs:#E8BDDE;
   --pwf:#CB626A;
   /*COULEUR VER.*/
-    --hc: #d283a2;
-    --bc: #b3ddd1;
-    --color1: #80beaf;
-    --color2: #d1dce2;
-    --color3: #b3ddd1;
-    --color4: #ee9c6c;
-    --color5: #dca07d;
-    --color6: #f5b994;
-    --c1: #80beaf;
-    --c2: #d1dce2;
-    --c3: #b3ddd1;
-    --c4: #ee9c6c;
-    --c5: #dca07d;
-    --c6: #f5b994;
+    --hc: #93a362;
+    --bc: #79884b;
+    --color1: #d1002b;
+    --color2: #d9274a;
+    --color3: #e14f6a;
+    --color4: #e97689;
+    --color5: #f19da9;
+    --color6: #f9c4c8;
+    --c1: #d1002b;
+    --c2: #d9274a;
+    --c3: #e14f6a;
+    --c4: #e97689;
+    --c5: #f19da9;
+    --c6: #f9c4c8;
   --gradient:linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
   --grad2:linear-gradient(45deg, var(--c5) 0%, var(--c6) 100%);
   --grad3:linear-gradient(45deg, var(--c2) 0%, #f9cdcb 100%);
-  --u4:#3e82e720;
-  --links:#438cef;
+  --u4:#93a36247;
+  --links:#93a362;
   --a7:#000000;
   --wm:#7CBEE1;
   --gn:#B4CC7F;
   --xy:#C12126;
   --mtp:#DA9027;
   --mt:#B09EC8;
-  --hrec:#DFCB24;
-  --links: #d283a2;}
+  --hrec:#DFCB24;}
                   
 body {
     background-image: var(--bodybgimg);
@@ -214,6 +228,7 @@ if {
     font-style: italic;
     font-size: 10px;
     font-family:var(--font-family-system);
+    text-transform: lowercase;
 }
                   
 st{
