@@ -592,7 +592,7 @@ if you are adding or removing slides, make sure that you change the 500% to the 
    transition: .5s;
 }
 
-.tab {
+#web_cont .tab {
    display: block;
    width: 500px;
    height: 100%;
