@@ -1,0 +1,997 @@
+#web_cont ::-webkit-scrollbar{width:1px} #web_cont ::-webkit-scrollbar-track{background:var(--blanc);} #web_cont ::-webkit-scrollbar-thumb{background:var(--blanc)!important;border:1px solid var(--blanc)}
+
+b-menu {
+  width: calc(100% - 40px);
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  word-spacing: 8px;
+  font-size: 14px;
+  margin-left:20px;
+}
+
+b-menu b {
+  margin-right: 10px;
+  border-bottom: 3px solid var(--wm);
+  margin-top: 4px;
+}
+
+b-menu i {
+  margin-right: 20px;
+  font-size: 10px;
+  color: var(--wm);
+}
+
+search-b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  height: 90px;
+  border-bottom: 0px solid #efefef;
+  font-size: 13px;
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+  margin-top:-20px;
+}
+
+searchin {
+ display: block;
+  border: 1px solid var(--web);
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+search-b i {
+  padding-right: 15px;
+  color:var(--wm);
+}
+
+.web_list {
+  height: 93px;
+    overflow: auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+web-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
+    height: 105px;
+    background: none;
+    padding: 0px 20px;
+}
+web-list one {
+  width: 193px;
+    height: 45px;
+    border: 1px solid var(--web);
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    padding: 0px 8px 0px 5px;
+    text-align: justify;
+  margin-bottom: 4px 
+}
+
+web-list one n-user {
+ line-height: 80%; 
+ margin-left: 10px;
+  font-size: 10px;
+    font-family: Rubik;
+  font-weight: bolder;
+  text-transform:uppercase;
+}
+
+web-list one tim {
+  font-size: 8px;
+  font-weight: lighter;
+  text-transform:uppercase;
+}
+
+web-list one i {
+  background: #b7dff5;
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 11px;
+  color: var(--wm);
+}
+
+ambassador {
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
+    height: 125px;
+    border: 1px solid var(--web);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.web_news{
+  display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+    width: 390px;
+}
+.web_track{
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.web_newss {
+  height: 450px !important;
+  overflow: auto;
+}
+
+play-list {
+  display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 300px;
+    border: 1px solid var(--web);
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+play-list inner {
+  height:300px;
+  overflow:auto;
+}
+
+play-list faves {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  position: relative;
+}
+
+play-list fave {
+width: 209px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    align-items: center;
+}
+
+play-list fave fimg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 5px;
+  margin-right: -5px;
+}
+
+play-list fave .f-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: cover;
+}
+
+play-list fave f-title {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 9px;
+  width: 100px;
+  background: none;
+  transition: 1s;
+  line-height:normal;
+}
+
+play-list fave f-artist {
+  display: block;
+  font-weight: 400;
+}
+
+play-list fave f-time {
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+play-list fave i {
+  font-size: 8px;
+  color: var(--wm);
+  padding-right: 15px;
+}
+
+n-play {
+    height: 345px;
+    display: block;
+    background: none;
+    padding: 20px;
+    position: relative;
+    margin-top: -15px;
+}
+
+n-player {
+  display: block;
+    width: 190px;
+    height: calc(100% - 2px);
+    border-radius: 15px;
+    background: linear-gradient(35deg, var(--wm) 27%, #9bd0ec 100%);
+    position: relative;
+  text-align:center;
+}
+
+n-player n-top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+}
+
+n-player n-top b {
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+n-player n-top i {
+  background: rgba(255,255,255,0.5);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+n-player .n-cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+n-player n-title {
+  width: calc(100% - 60px);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 30px 0px 30px; 
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+}
+
+n-player n-title i {
+  font-size: 10px;
+  margin-top: 3px;
+  font-weight: 400;
+  color: red;
+}
+
+n-player n-artist {
+  font-family: 'Rubik', sans-serif;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 100%;
+  display: block;
+  padding: 5px 30px;
+  letter-spacing: 1px;
+  margin-top:-5px;
+}
+
+n-player d-line {
+  width: calc(100% - 50px);
+  height: 2px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 2px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+n-player d-prog {
+  position: absolute;
+  width: 34%;
+  height: 100%;
+  background: #fff;
+  top: -1px;
+  left: 0px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+
+n-player d-cic {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #fff;
+  border: 1px solid var(--wm);
+  top: -3px;
+  left: 34%;
+}
+
+n-player d-time {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: auto;
+  background: none;
+  border-radius: 2px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+}
+
+n-player d-controls {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: auto;
+  margin: 0 auto;
+  margin-top: 7px;
+  font-size: 11px;
+  
+}
+
+n-player d-controls i.p-icon {
+  border-radius: 100%;
+  background: #ffffff50;
+  padding: 10px;
+  position: relative;
+  top: -10px;
+  color: #222;
+}
+
+.web_inner{
+  margin:0 auto;
+  margin-top:90px;
+}
+  
+ member-list {
+      display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 80px);
+    height: 80px;
+    border: 1px solid var(--web);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+  margin:0 auto;
+}
+
+
+member-list sm-con {
+  display: block;
+  text-align: center;
+}
+
+member-list sm-title {
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Rubik', sans-serif;
+  background: var(--wm);
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+member-list .sm-album {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: 2s;
+  cursor: pointer;
+}
+
+member-list .sm-album .pic {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+member-list .sm-cover {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+member-list .sm-album:hover .pic {
+  top: -70px;
+  transition: 1s;
+}
+
+member-list .sm-album:hover .sm-cover {
+  top: 0px;
+  transition: 1s;
+}
+
+body {background-color:#eaeaea;} 
+
+recent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% - 40px);
+  height: 160px; 
+  border: 1px solid var(--web);
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+recent titre {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+  background: none;
+  margin-top: -20px;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid var(--web);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+recent titre i {
+  margin-right: 10px;
+  color: var(--wm);
+}
+
+recent titre b {
+  margin-right: 5px;
+  margin-left: 5px;
+  border-bottom: 3px solid var(--wm);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+recent seall {
+  position: absolute;
+  right: 0px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: var(--accent2);
+  margin-top: 3px;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+  margin:2px;
+}
+
+.box-card .cont-img{
+  margin-bottom:-35px;
+}
+
+.box-card .cont-img img {
+    width: 125px;
+    height: 100px;
+    object-fit:cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.box-card .container-news {
+  height:auto;
+  width:95px;
+    background-color: var(--body2);
+    color: var(--noir);
+    position: relative;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+  font-family:karla;
+  text-transform:uppercase;
+  font-size:8px;
+      line-height: normal;
+}
+.box-card .container-news b {
+  border-bottom:3px solid var(--wm);
+}
+
+/*PAGE GLOBALE*/
+
+#web_cont {
+  color:var(--noir);
+  background-color:var(--blanc);
+  border:solid 1px var(--accent2);
+  width:500px;
+  height:645px;
+  padding:0px 5px 5px 5px;
+  border-radius:10px;
+  margin:0 auto;
+}
+
+#web_cont img{opacity:1;transition:0.8s;}
+#web_cont img:hover{opacity:0.6;}
+
+#web_cont input {
+   display: none;
+}
+
+#web_cont .con {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto; 
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+#web_cont .form-control {
+  display: block;
+  float: left;
+}
+
+/****
+this is the container of your left labels and right labels. these can be moved and positioned freely
+****/
+
+.left-tabs, .right-tabs {
+   position: absolute;
+   width: 30px;
+   height: 60px;
+   background: none;
+   bottom: -5px;
+   margin: auto;
+   z-index: 2;
+  font-family: abril fatface;
+   color: var(--noir);
+    font-size: 20px;
+  left: 20%;
+  right: 20%;
+}
+
+.left-tabs {
+       left: 0;
+}
+
+.right-tabs {
+   right: 0;
+}
+
+/****
+these are your right and left labels. these need to stay absolutely positioned within their containers in order to display correctly
+****/
+
+
+.left-tabs label, .right-tabs label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}\
+
+#hold-carousel {
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottoM: 0;
+}
+
+/***
+if you are adding or removing slides, make sure that you change the 500% to the correct ## of slides that you will have. 500% = 5 slides. 600% = 6 slides. 300% = 3 slides
+***/
+
+.carousel {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   width: 500%;
+   transition: .5s;
+}
+
+#web_cont .tab {
+   display: block;
+   width: 500px;
+   height: 100%;
+}
+
+/***
+if you are adding or removing slides, be sure to add or remove the following declarations as necessary.
+
+-----
+
+for the left labels:
+
+if you are REMOVING a slide, you would remove:
+#car5:checked ~ .left-tabs label:nth-child(4) for example.
+
+if you are ADDING a slide you, you would add:
+#car6:checked ~ .left-tabs label:nth-child(5)
+***/
+
+#car1:checked ~ .left-tabs label:last-child, #car2:checked ~ .left-tabs label:first-child, #car3:checked ~ .left-tabs label:nth-child(2), #car4:checked ~ .left-tabs label:nth-child(3), #car5:checked ~ .left-tabs label:nth-child(4) {
+   z-index: 3;
+}
+
+/***
+for the right labels:
+
+if you are REMOVING a slide, you would remove:
+#car3:checked ~ .right-tabs label:nth-child(4) for example.
+
+if you are ADDING a slide you, you would add:
+#car4:checked ~ .right-tabs label:nth-child(5)
+***/
+
+#car4:checked ~ .right-tabs label:last-child, #car5:checked ~ .right-tabs label:first-child, #car1:checked ~ .right-tabs label:nth-child(2), #car2:checked ~ .right-tabs label:nth-child(3), #car3:checked ~ .right-tabs label:nth-child(4) {
+   z-index: 3;
+}
+
+/***
+if you are adding or removing slides, be sure to add or remove extra of the following classes.
+
+the slide either needs to be added or removed and must have a number attached to it's second class. if adding a slide, it should look like: <div class="tab"></div> in the html for example.
+
+to make the carousel scroll properly, an extra class must be added that would look like this:
+#car6:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 5);
+}
+
+***/
+
+#car1:checked ~ #hold-carousel .carousel {
+  margin-left: 0%;
+}
+
+#car2:checked ~ #hold-carousel .carousel {
+  margin-left: -100%;
+}
+
+#car3:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 2);
+}
+
+#car4:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 3);
+}
+
+#car5:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 4);
+}
+
+.web_links {
+  padding:10px;
+  margin-bottom:10px;
+  position:relative;
+  float:right;
+}
+
+.web_agence {
+  float:left;
+  display:flex;
+  font-family:'Karla';
+  letter-spacing:-0.5px;
+  font-weight:bold;
+  font-size:16px;
+  padding:10px;
+  margin-top:4px;
+  float:left;
+  position:relative;
+  color:var(--noir);
+}
+
+.web_musicians{
+  padding:14px 10px 14px 10px;
+  font-family:'karla';
+  font-weight:bold;
+  font-size:12px;
+  transition:0.5s;
+}
+
+.web_actors{
+  padding:14px 10px 14px 10px;
+  font-family:'karla';
+  font-weight:bold;
+  font-size:12px;
+  transition:0.5s;
+}
+
+.web_ent{
+  padding:14px 10px 14px 10px;
+  font-family:'karla';
+  font-weight:bold;
+  font-size:12px;
+  transition:0.5s;
+}
+
+.web_staff{
+  padding:14px 10px 14px 10px;
+  font-family:'karla';
+  font-weight:bold;
+  font-size:12px;
+  transition:0.5s;
+}
+
+.web_musicians:hover{color:var(--txt);}
+.web_actors:hover{color:var(--txt);}
+.web_ent:hover{color:var(--txt);}
+.web_staff:hover{color:var(--txt);}
+
+.web_intro {
+  font-family:karla;
+  font-size:13px;
+  color:var(--txtf);
+  text-align:left;
+  border-top:solid 1px var(--accent);
+  padding:15px 10px 20px 15px;
+  letter-spacing:0.5px;
+ margin-top:40px;
+}
+.web_intro d{transition:0.5s;}
+.web_intro d:hover{color:#999;letter-spacing:1px;}
+
+.web_title {
+font-family:karla;
+font-weight:bold;
+font-size:16px;
+color:var(--noir);
+border-bottom:2px solid var(--noir);
+text-align:left;
+padding:0px 0px 8px 8px;
+margin-bottom:15px;}
+
+.web_img {
+  width:182px;
+height:182px;
+object-fit:cover;
+border-radius:10px;}
+
+.web_inf1 {
+  font-family:karla;
+  font-size:11px;
+  color:var(--txt);
+  margin-left:8px;
+  margin-bottom:8px;}
+
+.web_inf1 t {
+  font-weight:bold; 
+  border-bottom:2px solid var(--noir);
+color:var(--noir);}
+
+.web_img2 {
+  width:105px;
+  height:55px;
+  object-fit:cover;
+  padding:3px;
+  margin:15px 0px 15px 0px;}
+
+.web_inf2 {
+  font-family:karla;
+  font-size:10px;
+  color:var(--txt);
+  margin-left:3px;
+  line-height:110%;
+  width:95px;}
+
+.web_inf2 t {
+  font-weight:bold;
+  font-size:11px;
+  color:var(--noir);
+}
+
+.web_inf2 d {
+  color:var(--citt);
+  text-transform:uppercase;
+  font-size:9px;
+}
+
+.web_memberimg{
+  width:70px;
+  height:70px;
+  object-fit:cover;
+  border-radius:100%; 
+  padding:10px;
+  margin-left:10px;
+}
+
+.web_memberinf{
+  font-family:karla; color:#222;font-size:12px;margin-left:5px;}
+
+.web_memberinfname{
+  font-size:13px;border-bottom:2px solid black;padding-bottom:3px; font-weight:bold;font-family:karla;margin-bottom:5px;margin-left:5px;width:310px;}
+.web_memberinf d{color:#999;}
+
+#contentw{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:auto;
+  height:auto;
+}
+
+.albumct{
+  width:140px;
+  margin-bottom: 5px;
+}
+
+.web_album {
+  width:135px;
+  height:135px;
+  object-fit:cover;
+  margin:2px 2px 2px 2px;
+}
+
+.web_titlea {
+  font-family:karla;
+  font-size:11px;
+  color:var(--noir);
+  margin-left:4px;
+  line-height:100%;
+}
+
+.web_titlea d {
+  color:var(--citt);font-size:9px;text-transform:uppercase;}
+
+#web_tracklist { 
+  width:100px; 
+  height:100px; 
+  background:var(--blanc); 
+  opacity:0; 
+  overflow:auto; 
+  position:relative; 
+  left:9px; 
+  -webkit-transition:0.5s all linear; 
+  -moz-transition:0.5s all linear; 
+  margin-bottom:-120px; 
+  padding:10px; 
+  font-family: Karla; 
+  text-align: left; 
+  overflow:auto;
+  font-size:9px;
+  line-height:130%;}
+
+#web_tracklist:hover { opacity:0.9;}
+
+.web_trackname {
+  border-bottom:solid 1px var(--accent);padding-bottom:4px;margin-bottom:5px;}
+
+.web_trackname d{
+  color:var(--citt);!important;
+  letter-spacing:0.5px;
+  font-size:8px;
+  float:right;
+  opacity:0.8;}
+
+.web_trackname a {
+  text-transform:uppercase;text-decoration:none;color:var(--noir);font-weight:bold;}
+
+#contentwb{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:350px;
+  height:auto;
+  margin:0 auto;
+}
+
+.web_inf3 {
+  font-family:karla;
+  font-size:11px;
+  color:var(--noir);
+  width:160px;
+  line-height:120%;
+  margin-left:10px;
+}
+
+
+.web_inf3 d{
+  font-family:karla;
+  font-size:9px; 
+  text-transform:uppercase; 
+  color:var(--citt);}
+
+.prodw{
+  width:140px;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom:5px;
+}
+
+.web_inf4 {
+  margin-left:5px;
+  margin-top:10px;
+  font-family:karla;
+  font-size:11px;
+  color:var(--txt);
+  width:60px;
+  line-height:130%;}
+
+.web_inf4 b {
+  font-weight:bold; 
+color:var(--noir);}
+
+.web_inf4 d{
+  font-family:karla;
+  font-size:9px; 
+  text-transform:uppercase; 
+  color:var(--citt)}
+
+.web_img4 {
+  width:60px;
+  height:60px;}
+
+.web_onglets{
+     width: 455px;
+    height: 450px !important;
+    padding: 20px;
+    font-size: 11.2px;
+    line-height: 130%;
+    text-align: justify;
+  margin-top: 90px;}
+
+#web_artist {width:135px;height:135px;object-fit:cover;margin:2px 2px 2px 2px;transition:0.8s;background-size:135px!important;background-position:center!important;} 
+#web_artist:hover{background-size:185px !important;filter:grayscale(0.7);} 
+#web_access {width:40px;height:68px; background:transparent; visibility:hidden; position:relative; left:35px; top:35px;-webkit-transition:0.5s all linear; -moz-transition:0.5s all linear; margin-bottom:-50px; padding:10px; font-family: Karla; text-align: left; overflow:auto;font-size:9px;opacity:0; -webkit-animation: fadein 3s; -moz-animation: fadein 3s; animation: fadein 3s;} 
+#web_artist:hover #web_access{ visibility:visible;opacity:0.9;} .web_linkaccess{background:black;border-radius:100%;width:40px;height:28px;text-align:center;padding-top:12px;} 
+.web_linkaccess a {color:white;text-decoration:none;text-transform:uppercase;font-size:7px;letter-spacing:0.5px;}
+
+.web_title {margin-bottom:20px;} #web_tracklist {top:-132px;} .web_img4 {object-fit:cover;} .web_inf4 {margin-top: 2px!important;} .web_memberimg {padding:6px!important;border: 1px solid var(--accent2);} .web_memberinf {color: var(--blck)!important;} moon {color: var(--color6);margin: 0px 2px 0px 2px;font-family: "poppins", sans-serif;font-weight: 700;text-transform: uppercase;letter-spacing: .5px;font-size: 10px;background: var(--bdrf)!important;} .mntcs_lksicon {font-size: 10px;margin-right: 2px;color: var(--color1);} .prodw img {border-radius: 8px;} .web_img2 {border-radius: 8px;filter: saturate(0.8);}
