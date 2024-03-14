@@ -199,12 +199,12 @@ play-list fave f-title {
   width: 100px;
   background: none;
   transition: 1s;
+  line-height:normal;
 }
 
 play-list fave f-artist {
   display: block;
   font-weight: 400;
-  margin-top: -5px;
 }
 
 play-list fave f-time {
