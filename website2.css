@@ -246,6 +246,7 @@ n-player n-artist {
   display: block;
   padding: 5px 30px;
   letter-spacing: 1px;
+  margin-top:-5px;
 }
 
 n-player d-line {
