@@ -1,40 +1,360 @@
-sec-2 {
+.web_list {
+  height: 93px;
+    overflow: auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+web-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
+    height: 105px;
+    background: none;
+    padding: 0px 20px;
+}
+web-list one {
+  width: 193px;
+    height: 45px;
+    border: 1px solid #f7f7f7;
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    padding: 0px 8px 0px 5px;
+    text-align: justify;
+  margin-bottom: 4px 
+}
+
+web-list one n-user {
+ line-height: 80%; 
+ margin-left: 10px;
+  font-size: 10px;
+    font-family: Rubik;
+  font-weight: bolder;
+  text-transform:uppercase;
+}
+
+web-list one tim {
+  font-size: 8px;
+  font-weight: lighter;
+  text-transform:uppercase;
+}
+
+web-list one i {
+  background: #b7dff5;
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 11px;
+  color: var(--wm);
+}
+
+ambassador {
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
+    height: 125px;
+    border: 1px solid #f7f7f7;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.web_news{
+  display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+    width: 390px;
+}
+.web_track{
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.web_newss {
+  height: 450px !important;
+  overflow: auto;
+}
+
+play-list {
+  display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 300px;
+    border: 1px solid #f7f7f7;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+play-list inner {
+  height:300px;
+  overflow:auto;
+}
+
+play-list faves {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  position: relative;
+}
+
+play-list fave {
+  width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    align-items: center;
+}
+
+play-list fave fimg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 5px;
+  margin-right: -5px;
+}
+
+play-list fave .f-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: cover;
+}
+
+play-list fave f-title {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 9px;
+  width: 100px;
+  background: none;
+  transition: 1s;
+}
+
+play-list fave f-artist {
+  display: block;
+  font-weight: 400;
+  margin-top: 2px;
+  color: #222;
+}
+
+play-list fave f-time {
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+play-list fave i {
+  font-size: 8px;
+  color: var(--wm);
+  padding-right: 15px;
+}
+
+n-play {
+    height: 345px;
+    display: block;
+    background: none;
+    padding: 20px;
+    position: relative;
+    margin-top: -15px;
+}
+
+n-player {
+  display: block;
+    width: 190px;
+    height: calc(100% - 2px);
+    border-radius: 15px;
+    background: linear-gradient(35deg, var(--wm) 27%, #9bd0ec 100%);
+    position: relative;
+  text-align:center;
+}
+
+n-player n-top {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  width: calc(100% - 40px);
-  height: 160px; 
-  border: 1px solid #f7f7f7;
-  margin-top: 10px;
-  border-radius: 10px;
-  padding: 20px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
 }
 
-sec-2 sm-con {
-  width: 100px;
-  height: 100px;
-  background: none;
+n-player n-top b {
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+n-player n-top i {
+  background: rgba(255,255,255,0.5);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+n-player .n-cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+n-player n-title {
+  width: calc(100% - 60px);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 30px 0px 30px; 
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+}
+
+n-player n-title i {
+  font-size: 10px;
+  margin-top: 3px;
+  font-weight: 400;
+  color: red;
+}
+
+n-player n-artist {
+  font-family: 'Rubik', sans-serif;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 100%;
   display: block;
+  padding: 5px 30px;
+  letter-spacing: 1px;
+}
+
+n-player d-line {
+  width: calc(100% - 50px);
+  height: 2px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 2px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
   margin-top: 10px;
 }
 
-sec-2 sm-title {
+n-player d-prog {
+  position: absolute;
+  width: 34%;
+  height: 100%;
+  background: #fff;
+  top: -1px;
+  left: 0px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+
+n-player d-cic {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #fff;
+  border: 1px solid var(--wm);
+  top: -3px;
+  left: 34%;
+}
+
+n-player d-time {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: auto;
+  background: none;
+  border-radius: 2px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+}
+
+n-player d-controls {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 11px;
+  
+}
+
+n-player d-controls i.p-icon {
+  border-radius: 100%;
+  background: #ffffff50;
+  padding: 10px;
+  position: relative;
+  top: -10px;
+  color: #222;
+}
+
+.web_inner{
+  margin:0 auto;
+  margin-top:90px;
+}
+  
+ member-list {
+      display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 80px);
+    height: 90px;
+    border: 1px solid #f7f7f7;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+  margin:0 auto;
+}
+
+
+member-list sm-con {
+  display: block;
+  text-align: center;
+}
+
+member-list sm-title {
   text-transform: uppercase; 
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 10px;
   font-family: 'Rubik', sans-serif;
-  background: rgba(237, 147, 147,0.2);
+  background: var(--wm);
   padding: 3px 5px;
   border-radius: 5px;
 }
 
-sec-2 .sm-album {
-  width: 70px;
-  height: 70px;
+member-list .sm-album {
+  width: 60px;
+  height: 60px;
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 5px;
   position: relative;
   overflow: hidden;
@@ -42,7 +362,7 @@ sec-2 .sm-album {
   cursor: pointer;
 }
 
-sec-2 .sm-album .pic {
+member-list .sm-album .pic {
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -53,7 +373,7 @@ sec-2 .sm-album .pic {
   cursor: pointer;
 }
 
-sec-2 .sm-cover {
+member-list .sm-cover {
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -65,17 +385,31 @@ sec-2 .sm-cover {
   cursor: pointer;
 }
 
-sec-2 .sm-album:hover .pic {
+member-list .sm-album:hover .pic {
   top: -70px;
   transition: 1s;
 }
 
-sec-2 .sm-album:hover .sm-cover {
+member-list .sm-album:hover .sm-cover {
   top: 0px;
   transition: 1s;
 }
 
-sec-2 sm-recom {
+body {background-color:#eaeaea;} 
+
+recent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% - 40px);
+  height: 160px; 
+  border: 1px solid #f7f7f7;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+recent titre {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -91,12 +425,12 @@ sec-2 sm-recom {
   position: relative;
 }
 
-sec-2 sm-recom i {
+recent titre i {
   margin-right: 10px;
   color: var(--wm);
 }
 
-sec-2 sm-recom b {
+recent titre b {
   margin-right: 5px;
   margin-left: 5px;
   color: #222;
@@ -105,7 +439,7 @@ sec-2 sm-recom b {
   margin-top: 2px;
 }
 
-sec-2 seall {
+recent seall {
   position: absolute;
   right: 0px;
   font-family: 'Rubik', sans-serif;
@@ -113,8 +447,6 @@ sec-2 seall {
   color: #d9d9d9;
   margin-top: 3px;
 }
-
-body {background-color:#eaeaea;} 
 
 .box-card {
     display: flex;
@@ -125,6 +457,7 @@ body {background-color:#eaeaea;}
     border: 0;
     font: inherit;
     vertical-align: top;
+  margin:2px;
 }
 
 .box-card .cont-img{
@@ -163,10 +496,168 @@ body {background-color:#eaeaea;}
   height:645px;
   padding:0px 5px 5px 5px;
   border-radius:10px;
+  margin:0 auto;
 }
 
 #web_cont img{opacity:1;transition:0.8s;}
 #web_cont img:hover{opacity:0.6;}
+
+#web_cont input {
+   display: none;
+}
+
+#web_cont .con {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto; 
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+#web_cont .form-control {
+  display: block;
+  float: left;
+}
+
+/****
+this is the container of your left labels and right labels. these can be moved and positioned freely
+****/
+
+.left-tabs, .right-tabs {
+   position: absolute;
+   width: 30px;
+   height: 60px;
+   background: none;
+   bottom: -5px;
+   margin: auto;
+   z-index: 2;
+  font-family: abril fatface;
+   color: var(--noir);
+    font-size: 20px;
+  left: 20%;
+  right: 20%;
+}
+
+.left-tabs {
+       left: 0;
+}
+
+.right-tabs {
+   right: 0;
+}
+
+/****
+these are your right and left labels. these need to stay absolutely positioned within their containers in order to display correctly
+****/
+
+
+.left-tabs label, .right-tabs label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}\
+
+#hold-carousel {
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottoM: 0;
+}
+
+/***
+if you are adding or removing slides, make sure that you change the 500% to the correct ## of slides that you will have. 500% = 5 slides. 600% = 6 slides. 300% = 3 slides
+***/
+
+.carousel {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   width: 500%;
+   transition: .5s;
+}
+
+.tab {
+   display: block;
+   width: 500px;
+   height: 100%;
+}
+
+/***
+if you are adding or removing slides, be sure to add or remove the following declarations as necessary.
+
+-----
+
+for the left labels:
+
+if you are REMOVING a slide, you would remove:
+#car5:checked ~ .left-tabs label:nth-child(4) for example.
+
+if you are ADDING a slide you, you would add:
+#car6:checked ~ .left-tabs label:nth-child(5)
+***/
+
+#car1:checked ~ .left-tabs label:last-child, #car2:checked ~ .left-tabs label:first-child, #car3:checked ~ .left-tabs label:nth-child(2), #car4:checked ~ .left-tabs label:nth-child(3), #car5:checked ~ .left-tabs label:nth-child(4) {
+   z-index: 3;
+}
+
+/***
+for the right labels:
+
+if you are REMOVING a slide, you would remove:
+#car3:checked ~ .right-tabs label:nth-child(4) for example.
+
+if you are ADDING a slide you, you would add:
+#car4:checked ~ .right-tabs label:nth-child(5)
+***/
+
+#car4:checked ~ .right-tabs label:last-child, #car5:checked ~ .right-tabs label:first-child, #car1:checked ~ .right-tabs label:nth-child(2), #car2:checked ~ .right-tabs label:nth-child(3), #car3:checked ~ .right-tabs label:nth-child(4) {
+   z-index: 3;
+}
+
+/***
+if you are adding or removing slides, be sure to add or remove extra of the following classes.
+
+the slide either needs to be added or removed and must have a number attached to it's second class. if adding a slide, it should look like: <div class="tab"></div> in the html for example.
+
+to make the carousel scroll properly, an extra class must be added that would look like this:
+#car6:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 5);
+}
+
+***/
+
+#car1:checked ~ #hold-carousel .carousel {
+  margin-left: 0%;
+}
+
+#car2:checked ~ #hold-carousel .carousel {
+  margin-left: -100%;
+}
+
+#car3:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 2);
+}
+
+#car4:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 3);
+}
+
+#car5:checked ~ #hold-carousel .carousel {
+  margin-left: calc(-100% * 4);
+}
 
 .web_links {
   padding:10px;
@@ -431,37 +922,14 @@ color:var(--noir);}
   width:60px;
   height:60px;}
 
-/*ONGLETS*/
-.web_onglets span.onglet_cont {display:none;}
-.web_onglets input {display:none;} .web_onglets input:checked + span.onglet_cont {display:block;}
-
-.web_onglets span.onglet_cont {
-  width:430px;
-  height:460px !important;
-  padding:20px;
-  font-size:11.2px;
-  line-height:130%;
-  text-align:justify;
-  overflow:auto;}
-
-.web_onglets label.onglet_name {
-  display: inline-block;
-  margin:0px 2px 10px 2px;
-  width:auto;
-  text-align:center;
- cursor:pointer;
-  color:var(--noir);
-  font-family:Karla;
-  text-transform:uppercase;
-  transition:0.5s;
-    font-size: 8px;
-    padding:5px 5px;
-    border-radius: 50px;
-    border: 1px solid var(--noir);}
-
-.web_onglets label.onglet_name:hover {
-  background-color:var(--noir);
-color:var(--blanc)}
+.web_onglets{
+     width: 455px;
+    height: 450px !important;
+    padding: 20px;
+    font-size: 11.2px;
+    line-height: 130%;
+    text-align: justify;
+  margin-top: 90px;}
 
 #web_artist {width:135px;height:135px;object-fit:cover;margin:2px 2px 2px 2px;transition:0.8s;background-size:135px!important;background-position:center!important;} 
 #web_artist:hover{background-size:185px !important;filter:grayscale(0.7);} 
@@ -470,213 +938,3 @@ color:var(--blanc)}
 .web_linkaccess a {color:white;text-decoration:none;text-transform:uppercase;font-size:7px;letter-spacing:0.5px;}
 
 .web_title {margin-bottom:20px;} #web_tracklist {top:-132px;} .web_img4 {object-fit:cover;} .web_inf4 {margin-top: 2px!important;} .web_memberimg {padding:6px!important;border: 1px solid var(--accent2);} .web_memberinf {color: var(--blck)!important;} moon {color: var(--color6);margin: 0px 2px 0px 2px;font-family: "poppins", sans-serif;font-weight: 700;text-transform: uppercase;letter-spacing: .5px;font-size: 10px;background: var(--bdrf)!important;} .mntcs_lksicon {font-size: 10px;margin-right: 2px;color: var(--color1);} .prodw img {border-radius: 8px;} .web_img2 {border-radius: 8px;filter: saturate(0.8);}
-
-:root{
-  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --twitxt:rgba(0,0,0,1.00);
-  /*YTB*/
-  --ytb1:#efefef;
-  --ytb2:#00000020;
-  --ytb3:#00000005;
-  --ytb4:#d6d6d6;
-  --ytb5:#ebebeb;
-  /*IMG*/
-  --headerimg:url(https://i.imgur.com/NI71iez.jpg);
-  /*--bodybgimg: url(https://i.imgur.com/NI71iez.jpg);*/
-  --fdbg:url(https://i.imgur.com/atFNz3e.jpg);
-  --aes:url(https://i.imgur.com/GVPwo8y.jpg);
-  --imghead:url(https://images2.imgbox.com/31/9c/F43i0s4H_o.png);
-  /*SWITCHEROO*/
-  --color-bg:#f6f6f6;
-  --color-delete:#e74c3c;
-  --color-squircle:#fafafa;
-  --color-accent:#fff;
-  --color-pill:#fff;
-  --ease:cubic-bezier(0.4, 0.0, 0.2, 1);
-  --ease-bounce:cubic-bezier(0.43, 0.09, 0.38, 2.56);
-  /*COULEUR BASE*/
-  --sidebar: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.1));
-  --bodyline:#ffffff80;
-  --seep:#00000008;
-  --accent:#f2f2f2;
-  --accent2:#dcdcdc;
-  --txt:#747474;
-  --txt2:#6c6c6c;
-  --txtf:#7e7e7e;
-  --bordure2:rgba(255,255,255,.2);
-  --bordure:rgba(255,255,255,.3);
-  --fond:rgba(250,250,250,.2);
-  --hoverf:rgba(219,219,219,0.8);
-  --hoverb:#e7e7e7;
-  --fond2:rgba(250,250,250,0.4);
-  --body2:#fCfCfC;
-  --catb:#ededed;
-  --catf:#dadada;
-  --hr:#e5e5e5;
-  --body:#f0f0f040;
-  --blanc:#fff;
-  --noir:rgba(31,31,31,1);
-  --blck:#000;
-  --lights1:#ffffff80;
-  --lights2:#ffffff90;
-  --lgt3:#ffffff40;
-  --brd:rgba(255,255,255,0.4);
-  --lgt4:#ffffff50;
-  --imgcat:rgba(212,99,177,0.8);
-  --clr:#ffffff60;
-  --igbl:rgba(250,250,250,.10);
-  --hbot:#D3D2D3;
-  --bdrf:#00000005;
-  --accentb:#eaeaea;
-  --shadow:#ffffff50;
-  --citt:#00000050;
-  --btfd:#ffffff30;
-  --imgtr:0.8;
-  --zc:rgba(255,255,255,0.6);
-  --zc2:rgba(255,255,255,1);
-  --fondcat:#88cada;
-  --border:#eaeaea;
-  --cbg:#f9f9f9;
-  --cbg2:#f3f3f3; 
-  --ycs:#F3CC71;
-  --hs:#E8BDDE;
-  --pwf:#CB626A;
-  /*COULEUR VER.*/
-    --hc: #93a362;
-    --bc: #79884b;
-    --color1: #d1002b;
-    --color2: #d9274a;
-    --color3: #e14f6a;
-    --color4: #e97689;
-    --color5: #f19da9;
-    --color6: #f9c4c8;
-    --c1: #d1002b;
-    --c2: #d9274a;
-    --c3: #e14f6a;
-    --c4: #e97689;
-    --c5: #f19da9;
-    --c6: #f9c4c8;
-  --gradient:linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
-  --grad2:linear-gradient(45deg, var(--c5) 0%, var(--c6) 100%);
-  --grad3:linear-gradient(45deg, var(--c2) 0%, #f9cdcb 100%);
-  --u4:#93a36247;
-  --links:#93a362;
-  --a7:#000000;
-  --wm:#7CBEE1;
-  --gn:#B4CC7F;
-  --xy:#C12126;
-  --mtp:#DA9027;
-  --mt:#B09EC8;
-  --hrec:#DFCB24;}
-
-[data-theme="dark"]{
-  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --twitxt:rgba(247,249,249,1.00);
-  /*YTB*/
-  --ytb1:#ffffff10;
-  --ytb2:#ffffff20;
-  --ytb3:#ffffff05;
-  --ytb4:#363636;
-  --ytb5:#393939;
-  /*IMG*/
-  --headerimg:url(https://i.imgur.com/1JA7Iel.jpg);
-  /*--bodybgimg: url(https://i.imgur.com/1JA7Iel.jpg);*/
-  --fdbg:url(https://i.imgur.com/ezJuTu5.jpg);
-  --aes:url(https://i.imgur.com/R7A70qH.jpg);
-  --imghead:url(https://images2.imgbox.com/31/9c/F43i0s4H_o.png);
-  /*SWITCHEROO*/
-  --color-bg:rgba(31,31,31,1);
-  --color-delete:#e74c3c;
-  --color-squircle:#424242;
-  --color-accent:#fff;
-  --color-pill:#fff;
-  --ease:cubic-bezier(0.4, 0.0, 0.2, 1);
-  --ease-bounce:cubic-bezier(0.43, 0.09, 0.38, 2.56);
-  /*COULEUR BASE*/
-    --sidebar: linear-gradient(#00000050,#00000030);
-  --bodyline:#00000050;
-  --seep:#00000030;
-  --accent:#333333;
-  --accent2:#ffffff10;
-  --txt:#878787;
-  --txt2:#979797;
-  --txtf:#7e7e7e;
-  --bordure2:rgba(255,255,255,.1);
-  --bordure:rgba(255,255,255,.03);
-  --fond:rgba(250,250,250,.02);
-  --hoverf:rgba(219,219,219,0.8);
-  --hoverb:#e7e7e7;
-  --fond2:rgba(250,250,250,0.04);
-  --body2:#262626;
-  --catb:#242424;
-  --catf:#dadada;
-  --hr:#e5e5e5;
-  --body:#f0f0f030;
-  --blanc:rgba(31,31,31,1);
-  --noir:#fff;
-  --blck:#fff;
-  --lights1:#ffffff05;
-  --lights2:#ffffff05;
-  --lgt3:#00000040;
-  --lgt4:#ffffff07;
-  --brd:rgba(0,0,0,.05);
-  --imgcat:rgba(188,174,92,0.5);
-  --clr:#ffffff40;
-  --igbl:rgba(250,250,250,.10);
-  --hbot:#ffffff09;
-  --bdrf:#00000010;
-  --accentb:#262626;
-  --shadow:#00000050;
-  --citt:#ffffff50;
-  --btfd:#ffffff05;
-  --imgtr:0.4;
-  --zc:rgba(0,0,0,0.6);
-  --zc2:rgba(0,0,0,0.1);
-  --fondcat:#88cada;
-  --border:#171717;
-  --cbg:#252525;
-  --cbg2:#1b1b1b; 
-  --ycs:#F3CC71;
-  --hs:#E8BDDE;
-  --pwf:#CB626A;
-  /*COULEUR VER.*/
-    --hc: #93a362;
-    --bc: #79884b;
-    --color1: #d1002b;
-    --color2: #d9274a;
-    --color3: #e14f6a;
-    --color4: #e97689;
-    --color5: #f19da9;
-    --color6: #f9c4c8;
-    --c1: #d1002b;
-    --c2: #d9274a;
-    --c3: #e14f6a;
-    --c4: #e97689;
-    --c5: #f19da9;
-    --c6: #f9c4c8;
-  --gradient:linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
-  --grad2:linear-gradient(45deg, var(--c5) 0%, var(--c6) 100%);
-  --grad3:linear-gradient(45deg, var(--c2) 0%, #f9cdcb 100%);
-  --u4:#ffffff20;
-  --links:#93a362;
-  --a7:#000000;
-  --wm:#7CBEE1;
-  --gn:#B4CC7F;
-  --xy:#C12126;
-  --mtp:#DA9027;
-  --mt:#B09EC8;
-  --hrec:#DFCB24;}
-
-ycswu{color:#E9AA63;font-weight:bold;}
-hs{color:#C976A5;font-weight:bold;}
-pwf{color:#D85C5B;font-weight:bold;}
-hca{color:#5A87B0;font-weight:bold;}
-bc{color:#99AE6B;font-weight:bold;}
-mt{color:#8C65A6;font-weight:bold;}
-a7{color:var(--a7)}
-wm{color:#7CBEE1}
-gn{color:#B4CC7F}
-xy{color:#C12126}
-mtp{color:#DA9027}
-mt{color:#B09EC8}
-hrec{color:#DFCB24}
