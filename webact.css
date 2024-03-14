@@ -236,6 +236,7 @@ n-player {
     background-color: var(--noir);
     position: relative;
   text-align:center;
+      color: var(--blanc);
 }
 
 n-player n-top {
@@ -255,7 +256,7 @@ n-player n-top b {
 }
 
 n-player n-top i {
-  background: rgba(255,255,255,0.5);
+  background: none;
   padding: 5px;
   border-radius: 5px;
   font-size: 9px;
@@ -318,11 +319,11 @@ n-player d-prog {
   position: absolute;
   width: 34%;
   height: 100%;
-  background: #fff;
+  background: var(--blanc);
   top: -1px;
   left: 0px;
   border-radius: 2px;
-  border: 1px solid #fff;
+  border: 1px solid var(--blanc);
 }
 
 n-player d-cic {
@@ -330,7 +331,7 @@ n-player d-cic {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background: #fff;
+  background: var(--blanc);
   border: 1px solid var(--noir);
   top: -3px;
   left: 34%;
