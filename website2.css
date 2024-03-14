@@ -485,6 +485,7 @@ recent seall {
   font-family:karla;
   text-transform:uppercase;
   font-size:8px;
+      line-height: normal;
 }
 .box-card .container-news b {
   border-bottom:3px solid var(--wm);
