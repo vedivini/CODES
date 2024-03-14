@@ -109,8 +109,8 @@ play-list faves {
 }
 
 play-list fave {
-  width: 220px;
-    height: 50px;
+width: 210px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     background: none;
@@ -324,7 +324,7 @@ n-player d-controls i.p-icon {
     justify-content: space-between;
     flex-wrap: wrap;
     width: calc(100% - 80px);
-    height: 90px;
+    height: 80px;
     border: 1px solid #f7f7f7;
     margin-top: 10px;
     border-radius: 10px;
