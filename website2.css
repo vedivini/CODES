@@ -492,6 +492,7 @@ recent seall {
 /*PAGE GLOBALE*/
 
 #web_cont {
+  color:var(--noir);
   background-color:var(--blanc);
   border:solid 1px var(--accent2);
   width:500px;
