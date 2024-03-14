@@ -19,7 +19,7 @@ web-list {
 web-list one {
   width: 193px;
     height: 45px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid var(--web);
     display: flex;
     border-radius: 5px;
     justify-content: flex-start;
@@ -60,7 +60,7 @@ ambassador {
     flex-wrap: wrap;
     width: calc(100% - 40px);
     height: 125px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid var(--web);
     margin-top: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -91,7 +91,7 @@ play-list {
     flex-wrap: wrap;
     width: 210px;
     height: 300px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid var(--web);
     margin-top: 5px;
     border-radius: 10px;
     padding: 20px;
@@ -327,7 +327,7 @@ n-player d-controls i.p-icon {
     flex-wrap: wrap;
     width: calc(100% - 80px);
     height: 80px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid var(--web);
     margin-top: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -405,7 +405,7 @@ recent {
   flex-wrap: wrap;
   width: calc(100% - 40px);
   height: 160px; 
-  border: 1px solid #f7f7f7;
+  border: 1px solid var(--web);
   margin-top: 10px;
   border-radius: 10px;
   padding: 20px;
@@ -420,7 +420,7 @@ recent titre {
   background: none;
   margin-top: -20px;
   font-family: 'Open Sans', sans-serif;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid var(--web);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -477,7 +477,7 @@ recent seall {
   height:auto;
   width:95px;
     background-color: var(--body2);
-    color: #1a1a1a;
+    color: var(--noir);
     position: relative;
     padding: 15px;
     border-radius: 0 0 10px 10px;
