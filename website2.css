@@ -95,6 +95,7 @@ play-list {
     margin-top: 5px;
     border-radius: 10px;
     padding: 20px;
+    margin-left: -10px;
 }
 
 play-list inner {
