@@ -112,7 +112,7 @@ play-list faves {
 
 play-list fave {
 width: 209px;
-    height: auto;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     background: none;
