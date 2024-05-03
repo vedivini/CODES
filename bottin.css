@@ -7,12 +7,11 @@
   --ytb3:#00000005;
   --ytb4:#d6d6d6;
   --ytb5:#ebebeb;
-  --web:#f7f7f7;
   /*IMG*/
-  --headerimg:url(https://i.imgur.com/VCmhzZw.jpeg);
-  --bodybgimg: url(https://i.imgur.com/Qbo9fhr.png);
-  --fdbg:url(https://i.imgur.com/XcqkF1G.jpeg);
-  --aes:url(https://i.imgur.com/soTM9kb.png);
+  --headerimg:url(https://i.imgur.com/2AnTnAq.jpeg);
+  /*--bodybgimg: url(https://i.imgur.com/Qbo9fhr.png);*/
+  --fdbg:url(https://i.imgur.com/6FYCJ96.jpeg);
+  --aes:url(https://i.imgur.com/w2aw0Zq.jpeg);
   --imghead:url(https://images2.imgbox.com/31/9c/F43i0s4H_o.png);
   /*SWITCHEROO*/
   --color-bg:#f6f6f6;
@@ -70,25 +69,25 @@
   --hs:#E8BDDE;
   --pwf:#CB626A;
   /*COULEUR VER.*/
-    --hc: #7cd5bd;
-    --bc: #e693b8;
-    --color1: #d2aaff;
-    --color2: #e793b8;
-    --color3: #c08afd;
-    --color4: #e4b442;
-    --color5: #ffab40;
-    --color6: #fed269;
-    --c1: #d2aaff;
-    --c2: #a985d1;
-    --c3: #c08afd;
-    --c4: #e4b442;
-    --c5: #ffab40;
-    --c6: #fed269;
+    --hc: #975bda;
+    --bc: #f57900;
+    --color1: #6f9bcd;
+    --color2: #588cc7;
+    --color3: #2269ba;
+    --color4: #E9CA48;
+    --color5: #eeb43a;
+    --color6: #f2d96e;
+    --c1: #6f9bcd;
+    --c2: #588cc7;
+    --c3: #2269ba;
+    --c4: #E9CA48;
+    --c5: #eeb43a;
+    --c6: #f2d96e;
   --gradient:linear-gradient(45deg, var(--c1) 0%, var(--c3) 100%);
   --grad2:linear-gradient(45deg, var(--c5) 0%, var(--c6) 100%);
-  --grad3:linear-gradient(45deg, var(--c2) 0%, #f9cdcb 100%);
-  --u4:#e693b880;
-  --links:#7cd5bd;
+  --grad3:linear-gradient(45deg, var(--c2) 0%, var(--c4) 100%);
+  --u4:#3e82e720;
+  --links:#f57900;
   --a7:#000000;
   --wm:#7CBEE1;
   --gn:#B4CC7F;
