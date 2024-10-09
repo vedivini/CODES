@@ -1,13 +1,13 @@
 .fdchart{
     padding: 15px;
     margin: 0 auto;
-    background-color: var(--lights2);
-    outline: 1px solid var(--lights2);
-    width: 500px;
+    background-color: var(--bg3);
+    outline: 1px solid var(--bordure3);
+    width: 90%;
     height: auto;
     outline-offset: 5px;
     border-radius: 10px;
-  margin-top:10px;
+    margin-top: 20px;
 } 
 .titrec{
     display: inline-block;
@@ -30,35 +30,8 @@
 } 
 .imgchart:hover{filter:grayscale(1);transition: all 1s;}
 .song_info{display:inline-block;width:100%;margin-left:12px;vertical-align:middle;} 
-.song_chart{font-family:karla;color:var(--noir);font-size:14px;width:130px;vertical-align:baseline;} 
+.song_chart{font-family:karla;color:var(--black);font-size:14px;width:130px;vertical-align:baseline;} 
 .art_chart{font-family:karla;color:#969696;font-size:12px;width:130px;vertical-align:baseline;} 
 .album_chart{display:inline-block;width:100%;vertical-align:middle;width:100px;color:#969696;font-size:14px;font-family:karla;} 
 .date_chart{display:inline-block;width:100%;vertical-align:middle;width:100px;color:#969696;font-size:9px;font-family:karla;} 
 .streams{width:70px;font-family:karla;margin-left:12px;font-size:12px;color:#888;margin-right:12px;}
-
-/*OST, DRAMA, SHOW*/
-.fdtitrecb{box-shadow: inset 0 0 6px 0 var(--shadow);background:var(--fond2);padding:10px;margin:0 auto;width:430px;height:auto;} .fdcbtitre{width:345px;height:55px;margin-top:10px;margin-left:5px;}
-cbtitre{font-size:16px;font-family:old standard tt;color:var(--color2);text-align:center;text-transform:uppercase;letter-spacing:.2px;}
-cbtitre:after{width:350px;height:2px;display:block!important;content:'';background:var(--color5);margin-bottom:3px;margin-top:1px;}
-.fdcb{background:var(--fond);width:430px;height:auto;padding:10px;margin-top:-5px!important;margin:0 auto;}
-.fdcb .osts {background:var(--fond);border:3px double var(--bordure);padding:10px;height:auto; margin:0 auto; font-family:arial; font-size:11.5px; line-height:11.5px;}
-.fdcb uu{border-bottom:1px solid var(--color5);color:var(--color4);letter-spacing:.5px;}
-stcb{margin-top:-10px;font-size:9px;font-weight:300;letter-spacing:.5px;text-align:center;font-style:italic;font-family:'poppins';text-transform:uppercase;color:#a2a2a2;}
-.iconscb {padding:4px;border-radius:100%;border:4px solid var(--color5);height:50px;width:50px;object-fit:cover;opacity:.7;}
-.fdcb cc{text-transform:uppercase;font-family:arial;color:var(--color5);}.fdcb cc:before{content:'≻ '}
-.date{font-family:bitter;font-size:10px;text-transform:uppercase;letter-spacing:3px;text-align:center;margin-top:5px;margin-bottom:-5px;font-style:italic;color:rgba(0,0,0,.3);}
-.fdcb .gifs{width:191px;background:rgba(255,255,255,.5);border:1px double rgba(255,255,255,.5);padding:10px;height:90px;object-fit:cover;margin-left:-3px;margin-right:3px;opacity:.8;margin-bottom:2px;transition:700ms all ease;}.fdcb .gifs:hover{opacity:1;}
-.gifcb{width:130px;border:solid 1px var(--color2);padding:4px;height:62px;object-fit:cover;margin-left:-3px;}
-.fdcb .cbtableonglets{margin-top:-3px;} .fdcb .cbtableonglets span.ongletcont {display:none;} .fdcb .cbtableonglets input {display:none;} .fdcb .cbtableonglets input:checked + span.ongletcont {display:block;}
-.fdcb .cbtableonglets span.ongletcont {width:95%;margin-top:10px;background:#ffffff90;outline: 2px solid #ffffff90;border: 1px solid #00000005;font-size: 12px;line-height:12.5px;padding: 10px;position: relative;text-align: justify;z-index: 4;color:#00000070;font-family:arial;}
-.fdcb .cbtableonglets label.onglet {transition:1s;display: inline-block;margin:0 2px;width:auto;padding:5px;text-align:center;outline:1px solid var(--bordure);outline-offset:-2px;background-image:-webkit-linear-gradient(-176deg,var(--grad1), var(--grad2))!important;cursor:pointer;color:#fff;font-family:bitter;letter-spacing:.5px;text-transform:uppercase;font-size:9px;}
-.fdcb .cbtableonglets label.onglet:hover{opacity:.5;transition:1s;}
-.mshows{width:430px;height:auto;background-color:var(--fond);margin:0 auto;padding:20px;border:1px solid var(--bordure);border-radius:5px;}
-.gifshow{display:inline-block;width:130px;height:80px;border-radius:5px;background:var(--accent);margin-bottom:5px;padding:5px;}
-.gifshow img{transition:all .5s;width:130px;height:80px;filter:grayscale(0);border-radius:5px;object-fit:cover;} .gifshow img:hover{filter:grayscale(1);}
-.contshow{display:inline-block;width:130px;height:30px;border-radius:5px;margin-bottom:5px;padding:5px;}
-song{font-family:old standard tt;font-size:12px;text-transform:uppercase;letter-spacing:.2px;color:var(--color5);} 
-sing{margin-top:-10px!important;font-size:8px;font-weight:300;letter-spacing:1.5px;text-align:center;font-family:'karla';text-transform:uppercase;margin: 0 auto;color:var(--txt);}
-.sepshow{background-color:var(--jaugef);padding:2px;text-align:center;width:auto;margin-top:-15px;}.sepshow .gradient{background-image:-webkit-linear-gradient(-176deg,var(--grad1), var(--grad2))!important;padding:3px;}
-.winnershow{background-color:var(--fond);border:1px solid var(--bordure);padding:10px;border-radius:5px;}
-winner{font-family:old standard tt;color:#000;font-size:16px;font-weight:bold;text-transform:uppercase;box-shadow:inset 0 -5px 0 var(--accent);text-decoration:none;} next{font-size:9px;}
