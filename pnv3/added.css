@@ -1861,6 +1861,7 @@ blockquote.FAM-codebox > div {
   margin: 0 auto;
   text-transform: uppercase;
   filter: drop-shadow(0px 0px 10px var(--c1)) drop-shadow(0px 0px 15px var(--c6));
+	margi-top: -10px; 
 }
 
 #logo #firstline a {
@@ -1872,7 +1873,7 @@ blockquote.FAM-codebox > div {
   font-size: 100px;
   display: flex;
   align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 90px;
   font-family:'stretch pro';
   margin-left: 277px;
 }
