@@ -2265,7 +2265,7 @@ border-radius:50%;
 
 .switcheroo .switcheroo__delete {
     font-weight: bolder;
-    font-family: \'cappucicons\';
+    font-family: 'cappucicons';
     display: flex;
     justify-content: center;
     position: absolute;
@@ -2301,7 +2301,7 @@ border-radius:50%;
 }
 
 .switcheroo__form-label {
-    font-family: \'poppins\';
+    font-family: 'poppins';
     margin-bottom: 8px;
     font-size: 10px;
     font-weight:bolder;
@@ -2333,7 +2333,7 @@ border-radius:50%;
     font-weight: 500;
     letter-spacing: 1px;
     align-self: flex-end;
-    font-family: \'sbi\';
+    font-family: 'sbi';
     color: #fff;
     background: var(--grad2);
 }
@@ -2393,7 +2393,7 @@ border-radius:50%;
     cursor: pointer;
     color: #fff;
     border: 0;
-    font-family: \'poppins\';
+    font-family: 'poppins';
     outline: none;
     background: var(--grad4);
     border-radius: 4px;
@@ -2409,7 +2409,7 @@ border-radius:50%;
   background: var(--bg3); 
   padding: 10px; 
   text-align: justify; 
-  font-family: \'avenir\'; 
+  font-family: 'avenir'; 
   font-size:10px; 
   color: var(--txt1); 
 }
