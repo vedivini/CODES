@@ -1144,7 +1144,7 @@ blockquote.FAM-codebox:before {
   position: absolute;
   z-index: 1;
   content: "";
-  background: var(--c3);
+  background: var(--bg6);
   inset: -8px -20px -10px -15px;
   border-radius: 17px 17px 0 0;
 }
