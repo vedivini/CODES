@@ -35,7 +35,7 @@
 #box-insta .txt-insta i {font-size:20px;font-weight:bold;margin-right:3px;cursor:pointer;} 
 #box-insta .txt-insta .txt_insta{margin-top:10px;margin-bottom: -13px;} 
 ig-dt{color: hsl(0, 0%, 45%);font-weight: 400;opacity:0.8;} 
-#box-insta .insta .tabs-onglets {position:absolute;bottom: 0;padding:5px;width:calc(100% - 10px);height:auto;font-size:13px;text-align:center;} 
+#box-insta .insta .tabs-onglets {position:absolute;bottom: -9px;padding:5px;width:calc(100% - 10px);height:auto;font-size:13px;text-align:center;} 
 #box-insta .insta .tabs-onglets a {color: #00000030;text-decoration: none;padding: 0 5px;transition: 0.25s all ease-in-out;} 
 #box-insta .insta .tabs-onglets .selected, #box-insta .insta .tabs-onglets a:hover {color: #fff;} 
 #box-insta .insta #contenu {overflow:hidden;width:100%;height:auto;padding-bottom:5px;} 
