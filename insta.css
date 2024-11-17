@@ -64,3 +64,5 @@ ig-dt{color: hsl(0, 0%, 45%);font-weight: 400;opacity:0.8;}
 #com-insta .insta-haut .pro-username {margin: 10px 0 0 0;height: 35px;display: inline-block;vertical-align: middle;font-size:15px;color: var(--black);font-weight:bolder;} 
 #com-insta .insta-haut .haut-txt {display:flex; flex-direction:column;padding-left: 15px;width: 490px;} 
 #com-insta .insta-haut .position-audio {margin: -15px 0 0 0;display: inline-block;vertical-align: middle;font-size:13px;} 
+#com-insta .interacted {width:50px;height:50px;object-fit:cover;margin-top:5px;} 
+#com-insta .interacted img {width:100%;height:100%;object-fit:cover;border-radius:5px;}
