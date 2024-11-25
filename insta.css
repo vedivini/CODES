@@ -50,7 +50,7 @@
 #box-insta .txt-insta {padding:15px;font-size:14px;} 
 #box-insta .txt-insta i {font-size:20px;font-weight:bold;margin-right:3px;cursor:pointer;} 
 #box-insta .txt-insta .txt_insta{margin-top:10px;margin-bottom: -13px;} 
-ig-dt{color: hsl(0, 0%, 45%);font-weight: 400;opacity:0.8;} 
+ig-dt{color: hsl(0, 0%, 45%);font-weight: 400;opacity:0.8;font-size: 13px;} 
 #box-insta .insta .tabs-onglets {position:absolute;bottom: -9px;padding:5px;width:calc(100% - 10px);height:auto;font-size:13px;text-align:center;} 
 #box-insta .insta .tabs-onglets a {color: #00000030;text-decoration: none;padding: 0 5px;transition: 0.25s all ease-in-out;} 
 #box-insta .insta .tabs-onglets .selected, #box-insta .insta .tabs-onglets a:hover {color: #fff;} 
